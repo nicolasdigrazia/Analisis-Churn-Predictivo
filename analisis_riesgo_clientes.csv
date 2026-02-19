@@ -1,0 +1,981 @@
+cliente_id,edad,ciudad,producto,meses_activo,compras_totales,ingreso_total,soporte_tickets,medio_pago,churn,segmento_antiguedad,grupo_edad,prob_churn,riesgo
+1,56,Rosario,Tv,36,42,45387.0,5,Desconocido,0,24+ meses,45-60,0.3271419115436612,Medio
+2,69,Cordoba,Telefonia,38,37,341960.0,1,Efectivo,0,24+ meses,60+,0.15961171150049522,Bajo
+3,46,Cordoba,Internet,39,37,7642.0,5,Tarjeta,0,24+ meses,45-60,0.4262664508106504,Medio
+4,32,Desconocida,Desconocido,37,42,309281.0,12,Tarjeta,0,24+ meses,30-45,0.1876629112801427,Bajo
+5,60,Buenos aires,Desconocido,35,37,478048.0,5,Transferencia,0,24+ meses,45-60,0.4188121023262649,Medio
+6,25,Rosario,Telefonia,7,35,275628.0,7,Desconocido,0,6-12 meses,18-30,0.2607300541931318,Bajo
+7,78,Rosario,Desconocido,27,23,329404.0,6,Transferencia,1,24+ meses,60+,0.6070474966534417,Alto
+8,38,Rosario,Tv,28,6,151510.0,7,Desconocido,1,24+ meses,30-45,0.5425547870775204,Medio
+9,56,Buenos aires,Tv,22,4,315586.0,13,Desconocido,0,12-24 meses,45-60,0.29066387842604585,Bajo
+10,75,Cordoba,Internet,14,18,370205.0,8,Transferencia,0,12-24 meses,60+,0.19794651096970367,Bajo
+11,36,Buenos aires,Internet,7,9,401210.0,5,Efectivo,0,6-12 meses,30-45,0.1942900159349057,Bajo
+12,40,Cordoba,Internet,37,49,259511.0,13,Transferencia,1,24+ meses,30-45,0.29692117249366057,Bajo
+13,28,Buenos aires,Telefonia,22,29,392988.0,2,Transferencia,0,12-24 meses,18-30,0.21081394537415796,Bajo
+14,28,Rosario,Internet,5,13,366719.0,9,Tarjeta,0,0-6 meses,18-30,0.486041900484949,Medio
+15,41,Desconocida,Tv,2,47,268957.0,2,Tarjeta,0,0-6 meses,30-45,0.2489680283256924,Bajo
+16,70,Buenos aires,Desconocido,27,17,360171.0,10,Transferencia,0,24+ meses,60+,0.20182291667649538,Bajo
+17,53,Cordoba,Tv,21,45,390633.0,11,Transferencia,0,12-24 meses,45-60,0.29736533805796694,Bajo
+18,57,Desconocida,Telefonia,38,32,89381.0,0,Tarjeta,0,24+ meses,45-60,0.6843080658011468,Alto
+19,41,Rosario,Tv,15,48,254880.0,10,Desconocido,1,12-24 meses,30-45,0.48215603927679995,Medio
+20,20,Mendoza,Desconocido,21,22,322420.0,14,Transferencia,1,12-24 meses,18-30,0.7041034525115409,Alto
+21,39,Buenos aires,Tv,10,4,308387.0,12,Efectivo,1,6-12 meses,30-45,0.2604063333854145,Bajo
+22,70,Cordoba,Telefonia,23,5,198984.0,14,Efectivo,1,12-24 meses,60+,0.2780070583106728,Bajo
+23,19,Desconocida,Tv,39,37,65272.0,4,Efectivo,0,24+ meses,18-30,0.5380029057040471,Medio
+24,41,Cordoba,Internet,5,41,178123.0,13,Transferencia,0,0-6 meses,30-45,0.11160577689415367,Bajo
+25,61,Rosario,Tv,1,49,477070.0,3,Desconocido,1,0-6 meses,60+,0.72667041559808,Alto
+26,47,Rosario,Internet,13,13,218808.0,8,Desconocido,1,12-24 meses,45-60,0.5094325242975867,Medio
+27,55,Cordoba,Internet,21,34,258091.0,14,Tarjeta,0,12-24 meses,45-60,0.19521028574805055,Bajo
+28,19,Desconocida,Tv,26,45,332762.0,8,Transferencia,0,24+ meses,18-30,0.11464366407852068,Bajo
+29,77,Cordoba,Telefonia,45,22,269064.0,14,Desconocido,0,24+ meses,60+,0.11865426731655057,Bajo
+30,38,Cordoba,Desconocido,21,23,111121.0,13,Transferencia,0,12-24 meses,30-45,0.17468122965754745,Bajo
+31,50,Cordoba,Tv,18,3,475435.0,4,Tarjeta,0,12-24 meses,45-60,0.28370907273218526,Bajo
+32,29,Cordoba,Tv,37,42,81872.0,9,Tarjeta,0,24+ meses,18-30,0.43687194466296164,Medio
+33,75,Cordoba,Desconocido,45,34,348276.0,3,Tarjeta,0,24+ meses,60+,0.1996546333561958,Bajo
+34,39,Rosario,Internet,32,32,269237.0,6,Efectivo,0,24+ meses,30-45,0.5006789277960593,Medio
+35,78,Buenos aires,Internet,36,45,280049.0,14,Transferencia,1,24+ meses,60+,0.5606747848288526,Medio
+36,61,Cordoba,Telefonia,17,49,126759.0,5,Tarjeta,0,12-24 meses,60+,0.3701769787982403,Medio
+37,42,Rosario,Internet,35,21,422567.0,3,Transferencia,0,24+ meses,30-45,0.45199746166250576,Medio
+38,66,Buenos aires,Tv,11,46,298125.0,12,Efectivo,0,6-12 meses,60+,0.3027554721373308,Medio
+39,44,Rosario,Internet,21,44,341047.0,12,Efectivo,1,12-24 meses,30-45,0.34604484863370144,Medio
+40,76,Buenos aires,Tv,26,21,337965.0,14,Tarjeta,0,24+ meses,60+,0.11992844466596314,Bajo
+41,59,Rosario,Telefonia,4,44,376344.0,9,Tarjeta,1,0-6 meses,45-60,0.7709564266130192,Alto
+43,77,Cordoba,Telefonia,18,39,121506.0,0,Transferencia,1,12-24 meses,60+,0.8149544462766908,Alto
+44,33,Mendoza,Tv,40,4,482237.0,3,Tarjeta,1,24+ meses,30-45,0.8916680457111874,Alto
+45,32,Rosario,Tv,35,1,83513.0,3,Desconocido,0,24+ meses,30-45,0.29573865638595387,Bajo
+46,79,Buenos aires,Desconocido,41,28,418090.0,12,Transferencia,0,24+ meses,60+,0.1475407430068647,Bajo
+47,79,Buenos aires,Internet,29,24,187003.0,0,Tarjeta,0,24+ meses,60+,0.2202514683541499,Bajo
+48,64,Cordoba,Telefonia,29,35,405890.0,5,Desconocido,0,24+ meses,60+,0.33271443869576134,Medio
+49,79,Mendoza,Telefonia,38,13,317660.0,3,Desconocido,0,24+ meses,60+,0.257945687883294,Bajo
+50,68,Desconocida,Desconocido,42,47,264480.0,0,Transferencia,0,24+ meses,60+,0.33191339946629667,Medio
+51,61,Desconocida,Tv,21,34,267043.0,0,Desconocido,0,12-24 meses,60+,0.29525627903084106,Bajo
+52,72,Cordoba,Tv,42,11,492790.0,14,Transferencia,0,24+ meses,60+,0.18796537271208322,Bajo
+53,69,Cordoba,Internet,13,36,196758.0,12,Transferencia,0,12-24 meses,60+,0.12555080880153463,Bajo
+54,74,Cordoba,Internet,41,17,493067.0,0,Transferencia,0,24+ meses,60+,0.2448663426982599,Bajo
+55,20,Rosario,Internet,17,35,336356.0,7,Efectivo,0,12-24 meses,18-30,0.19995615331375086,Bajo
+56,54,Rosario,Desconocido,9,18,138498.0,9,Desconocido,0,6-12 meses,45-60,0.3410943854909227,Medio
+57,68,Rosario,Tv,41,40,259024.0,7,Transferencia,0,24+ meses,60+,0.5310379862475981,Medio
+58,24,Rosario,Tv,1,22,275628.0,1,Tarjeta,0,0-6 meses,18-30,0.21615943337848595,Bajo
+59,38,Cordoba,Telefonia,2,24,95009.0,10,Efectivo,1,0-6 meses,30-45,0.6571779391092791,Alto
+60,26,Mendoza,Internet,29,19,204570.0,12,Efectivo,0,24+ meses,18-30,0.4068702209447342,Medio
+61,56,Buenos aires,Telefonia,33,37,428159.0,6,Desconocido,0,24+ meses,45-60,0.3343344911298097,Medio
+62,35,Rosario,Telefonia,10,39,202467.0,13,Transferencia,0,6-12 meses,30-45,0.17730893559426497,Bajo
+63,21,Mendoza,Internet,40,21,49816.0,7,Desconocido,1,24+ meses,18-30,0.759130368917329,Alto
+64,42,Cordoba,Tv,21,8,9138.0,7,Efectivo,1,12-24 meses,30-45,0.7816171971164598,Alto
+65,77,Rosario,Internet,28,28,498944.0,10,Transferencia,1,24+ meses,60+,0.6821980183158816,Alto
+66,31,Rosario,Telefonia,11,5,96176.0,9,Tarjeta,0,6-12 meses,30-45,0.2981252422906962,Bajo
+67,67,Rosario,Internet,34,17,275628.0,14,Transferencia,0,24+ meses,60+,0.5872399516454481,Medio
+68,75,Buenos aires,Tv,8,37,271161.0,10,Efectivo,0,6-12 meses,60+,0.23836211284272119,Bajo
+69,26,Buenos aires,Internet,22,36,277595.0,12,Tarjeta,0,12-24 meses,18-30,0.35219227518337226,Medio
+70,43,Desconocida,Tv,8,19,199028.0,6,Transferencia,1,6-12 meses,30-45,0.5382378909690929,Medio
+71,70,Desconocida,Internet,15,27,361007.0,4,Tarjeta,0,12-24 meses,60+,0.3746198440989242,Medio
+72,19,Desconocida,Internet,17,34,277422.0,0,Tarjeta,1,12-24 meses,18-30,0.7260113344922242,Alto
+73,37,Desconocida,Tv,23,11,275628.0,11,Efectivo,0,12-24 meses,30-45,0.2289502020441887,Bajo
+74,45,Cordoba,Telefonia,24,45,48764.0,8,Tarjeta,1,12-24 meses,30-45,0.852841007088027,Alto
+75,64,Cordoba,Telefonia,45,47,128030.0,12,Desconocido,0,24+ meses,60+,0.2566453405018365,Bajo
+76,77,Rosario,Tv,19,12,399350.0,6,Efectivo,0,12-24 meses,60+,0.2513741537902007,Bajo
+77,24,Cordoba,Internet,5,21,330087.0,1,Desconocido,0,0-6 meses,18-30,0.17786972427337516,Bajo
+78,61,Rosario,Desconocido,32,11,100667.0,5,Tarjeta,0,24+ meses,60+,0.18570795391236708,Bajo
+79,78,Rosario,Telefonia,44,39,321462.0,1,Desconocido,0,24+ meses,60+,0.2922159810444873,Bajo
+80,25,Desconocida,Tv,1,28,370567.0,14,Transferencia,1,0-6 meses,18-30,0.38430658143464136,Medio
+81,64,Rosario,Tv,23,5,371142.0,0,Tarjeta,0,12-24 meses,60+,0.33445080651024156,Medio
+82,52,Mendoza,Tv,37,17,65128.0,13,Transferencia,0,24+ meses,45-60,0.5515232368607625,Medio
+83,31,Cordoba,Desconocido,8,20,224128.0,6,Desconocido,0,6-12 meses,30-45,0.1607073934558872,Bajo
+84,34,Rosario,Tv,13,41,289013.0,12,Transferencia,0,12-24 meses,30-45,0.4502757587805112,Medio
+85,53,Cordoba,Internet,8,46,238540.0,1,Tarjeta,1,6-12 meses,45-60,0.4801032925596831,Medio
+86,67,Cordoba,Tv,23,12,10039.0,12,Transferencia,1,12-24 meses,60+,0.7345426622739805,Alto
+87,57,Cordoba,Internet,43,6,157353.0,13,Desconocido,1,24+ meses,45-60,0.4920199448596448,Medio
+88,21,Rosario,Tv,1,17,117935.0,13,Desconocido,1,0-6 meses,18-30,0.6280546055196707,Alto
+89,19,Desconocida,Tv,45,19,15442.0,1,Desconocido,1,24+ meses,18-30,0.4219627603254403,Medio
+90,79,Rosario,Internet,24,26,340932.0,12,Tarjeta,0,12-24 meses,60+,0.31217737997991546,Medio
+91,23,Rosario,Tv,35,48,386873.0,10,Desconocido,1,24+ meses,18-30,0.4581738893845126,Medio
+92,71,Desconocida,Tv,24,44,294730.0,4,Tarjeta,0,12-24 meses,60+,0.47264981105860465,Medio
+93,59,Cordoba,Desconocido,17,44,58053.0,13,Transferencia,0,12-24 meses,45-60,0.17807681780663515,Bajo
+94,21,Mendoza,Tv,5,32,186561.0,4,Desconocido,0,0-6 meses,18-30,0.17387165987430053,Bajo
+95,71,Buenos aires,Telefonia,20,6,219176.0,6,Transferencia,1,12-24 meses,60+,0.5347345741415079,Medio
+96,46,Rosario,Tv,21,36,91346.0,0,Efectivo,1,12-24 meses,45-60,0.4586966152579637,Medio
+97,35,Buenos aires,Telefonia,40,38,334231.0,7,Transferencia,0,24+ meses,30-45,0.3233797181578241,Medio
+98,43,Desconocida,Tv,31,11,410841.0,2,Efectivo,1,24+ meses,30-45,0.7498013358711512,Alto
+99,61,Mendoza,Telefonia,46,33,39397.0,3,Transferencia,1,24+ meses,60+,0.8286515624447672,Alto
+100,51,Rosario,Tv,36,24,325815.0,14,Tarjeta,0,24+ meses,45-60,0.18587185991640529,Bajo
+101,27,Desconocida,Tv,11,23,121214.0,8,Transferencia,0,6-12 meses,18-30,0.5097933257811161,Medio
+102,79,Cordoba,Internet,15,15,490001.0,3,Tarjeta,1,12-24 meses,60+,0.3804860784637025,Medio
+103,53,Rosario,Desconocido,19,27,334041.0,9,Tarjeta,0,12-24 meses,45-60,0.256370667851733,Bajo
+104,31,Buenos aires,Telefonia,7,11,162221.0,11,Desconocido,0,6-12 meses,30-45,0.19222277152063424,Bajo
+105,48,Cordoba,Internet,28,17,458246.0,14,Tarjeta,0,24+ meses,45-60,0.14046074344674422,Bajo
+106,65,Cordoba,Internet,43,14,468122.0,4,Efectivo,0,24+ meses,60+,0.2660139170352583,Bajo
+107,32,Mendoza,Telefonia,5,27,403499.0,6,Desconocido,1,0-6 meses,30-45,0.19286211584468163,Bajo
+108,25,Cordoba,Telefonia,5,18,405826.0,3,Desconocido,0,0-6 meses,18-30,0.0596809453642187,Bajo
+109,31,Buenos aires,Internet,30,28,441542.0,13,Transferencia,1,24+ meses,30-45,0.7123365273339379,Alto
+110,40,Cordoba,Tv,32,47,282068.0,0,Tarjeta,1,24+ meses,30-45,0.620656198303521,Alto
+111,77,Buenos aires,Telefonia,8,47,118143.0,8,Tarjeta,1,6-12 meses,60+,0.6977925696422289,Alto
+112,74,Mendoza,Tv,10,4,377397.0,3,Efectivo,0,6-12 meses,60+,0.49359780302216616,Medio
+113,79,Mendoza,Internet,38,7,474378.0,8,Transferencia,0,24+ meses,60+,0.4934193749165987,Medio
+114,57,Cordoba,Tv,47,45,367441.0,5,Transferencia,0,24+ meses,45-60,0.23918893291171625,Bajo
+115,38,Cordoba,Tv,32,35,268013.0,14,Desconocido,0,24+ meses,30-45,0.20321265864760743,Bajo
+116,33,Rosario,Internet,28,48,364232.0,0,Desconocido,1,24+ meses,30-45,0.4162879610829204,Medio
+117,62,Cordoba,Telefonia,17,9,268158.0,11,Desconocido,0,12-24 meses,60+,0.2766959077942207,Bajo
+118,35,Cordoba,Desconocido,31,8,15103.0,2,Efectivo,0,24+ meses,30-45,0.2483452030573186,Bajo
+119,64,Cordoba,Internet,8,45,480738.0,10,Efectivo,0,6-12 meses,60+,0.43451866662466143,Medio
+120,70,Rosario,Tv,40,17,377461.0,1,Desconocido,1,24+ meses,60+,0.2337642688664562,Bajo
+121,41,Rosario,Telefonia,25,17,494223.0,8,Transferencia,1,24+ meses,30-45,0.5399709737737579,Medio
+122,43,Rosario,Tv,9,49,431674.0,14,Efectivo,0,6-12 meses,30-45,0.25961773955752976,Bajo
+123,42,Rosario,Tv,2,33,488821.0,11,Transferencia,1,0-6 meses,30-45,0.4101617635488738,Medio
+124,77,Rosario,Internet,15,32,87409.0,0,Transferencia,0,12-24 meses,60+,0.3873201037333898,Medio
+125,77,Desconocida,Telefonia,3,8,275628.0,12,Tarjeta,0,0-6 meses,60+,0.4094419873212443,Medio
+126,77,Buenos aires,Tv,36,19,487376.0,13,Desconocido,1,24+ meses,60+,0.283314113981346,Bajo
+127,62,Desconocida,Tv,4,38,179588.0,8,Tarjeta,0,0-6 meses,60+,0.3337219409252701,Medio
+128,58,Desconocida,Telefonia,14,3,427277.0,8,Desconocido,1,12-24 meses,45-60,0.2685947733632733,Bajo
+129,46,Desconocida,Tv,41,5,275628.0,7,Desconocido,0,24+ meses,45-60,0.5139433361554222,Medio
+130,32,Rosario,Desconocido,41,13,13024.0,7,Transferencia,0,24+ meses,30-45,0.29564308343996354,Bajo
+131,62,Rosario,Tv,25,47,480430.0,10,Desconocido,1,24+ meses,60+,0.6813467322247875,Alto
+132,18,Mendoza,Internet,10,46,239864.0,13,Transferencia,0,6-12 meses,,0.22279258883625996,Bajo
+133,42,Mendoza,Tv,21,31,353091.0,11,Transferencia,1,12-24 meses,30-45,0.8131042886414953,Alto
+134,24,Buenos aires,Desconocido,36,16,179875.0,0,Desconocido,1,24+ meses,18-30,0.6063829221671813,Alto
+135,26,Rosario,Tv,12,32,417512.0,10,Transferencia,0,6-12 meses,18-30,0.42359554334077965,Medio
+136,41,Rosario,Tv,27,22,358973.0,7,Transferencia,0,24+ meses,30-45,0.439296189098871,Medio
+137,18,Rosario,Internet,40,29,359852.0,9,Transferencia,0,24+ meses,,0.27116184220707074,Bajo
+138,61,Cordoba,Tv,2,22,353808.0,13,Efectivo,0,0-6 meses,60+,0.16427312738568178,Bajo
+139,25,Cordoba,Tv,13,43,416473.0,2,Transferencia,0,12-24 meses,18-30,0.19111443694751673,Bajo
+140,41,Cordoba,Desconocido,32,3,148927.0,10,Efectivo,0,24+ meses,30-45,0.20061467780675954,Bajo
+141,28,Cordoba,Telefonia,31,10,90178.0,6,Efectivo,0,24+ meses,18-30,0.5305680245681296,Medio
+142,68,Rosario,Internet,16,42,368265.0,10,Transferencia,0,12-24 meses,60+,0.3476445128044978,Medio
+143,34,Rosario,Internet,32,21,287169.0,14,Transferencia,1,24+ meses,30-45,0.742321448474673,Alto
+144,25,Cordoba,Internet,32,16,402674.0,0,Efectivo,1,24+ meses,18-30,0.3282645129786357,Medio
+145,52,Cordoba,Tv,34,12,68610.0,0,Efectivo,1,24+ meses,45-60,0.8115629001766519,Alto
+146,52,Cordoba,Internet,11,2,75843.0,9,Transferencia,0,6-12 meses,45-60,0.2547490147790667,Bajo
+147,50,Mendoza,Tv,10,41,112237.0,12,Transferencia,1,6-12 meses,45-60,0.7888814995241337,Alto
+148,76,Cordoba,Telefonia,15,24,482177.0,4,Desconocido,0,12-24 meses,60+,0.38244879525956466,Medio
+149,22,Cordoba,Desconocido,17,35,185903.0,4,Efectivo,1,12-24 meses,18-30,0.5480717969625143,Medio
+150,59,Rosario,Telefonia,40,30,179499.0,7,Efectivo,1,24+ meses,45-60,0.40061376356714157,Medio
+151,56,Cordoba,Desconocido,18,30,492025.0,6,Desconocido,0,12-24 meses,45-60,0.23338996481220234,Bajo
+152,75,Rosario,Tv,9,47,135299.0,7,Efectivo,0,6-12 meses,60+,0.49922659168882966,Medio
+153,58,Buenos aires,Internet,25,35,436722.0,5,Tarjeta,1,24+ meses,45-60,0.5852025304824977,Medio
+154,45,Cordoba,Tv,40,19,10668.0,5,Efectivo,1,24+ meses,30-45,0.8225569801725804,Alto
+155,24,Buenos aires,Internet,14,8,227542.0,1,Desconocido,1,12-24 meses,18-30,0.42019135557410214,Medio
+156,26,Mendoza,Internet,25,26,183267.0,5,Tarjeta,0,24+ meses,18-30,0.23942155772759732,Bajo
+157,25,Cordoba,Desconocido,22,49,340377.0,4,Transferencia,0,12-24 meses,18-30,0.22663771460878146,Bajo
+158,29,Rosario,Tv,30,40,160489.0,12,Desconocido,0,24+ meses,18-30,0.2516676737380567,Bajo
+159,51,Cordoba,Tv,20,7,349126.0,2,Desconocido,1,12-24 meses,45-60,0.5186000115047065,Medio
+160,50,Buenos aires,Desconocido,21,30,111133.0,5,Transferencia,0,12-24 meses,45-60,0.4166436725267527,Medio
+161,65,Rosario,Internet,44,7,277895.0,7,Desconocido,1,24+ meses,60+,0.5948861381517271,Medio
+162,72,Cordoba,Internet,32,3,313362.0,8,Efectivo,0,24+ meses,60+,0.22345085180150814,Bajo
+163,40,Cordoba,Internet,46,1,393793.0,0,Transferencia,0,24+ meses,30-45,0.40374243946054633,Medio
+164,79,Rosario,Tv,21,36,274496.0,2,Desconocido,0,12-24 meses,60+,0.2565440826980853,Bajo
+165,41,Buenos aires,Internet,35,25,215124.0,2,Transferencia,1,24+ meses,30-45,0.5423129640869037,Medio
+166,54,Cordoba,Telefonia,32,37,93835.0,10,Transferencia,0,24+ meses,45-60,0.3081056915392414,Medio
+167,52,Buenos aires,Internet,30,1,102493.0,7,Transferencia,0,24+ meses,45-60,0.38749716169347004,Medio
+168,61,Desconocida,Internet,39,15,296071.0,0,Tarjeta,0,24+ meses,60+,0.3516374707783712,Medio
+169,57,Buenos aires,Desconocido,12,37,177166.0,4,Desconocido,0,6-12 meses,45-60,0.3497133832879394,Medio
+170,39,Rosario,Internet,41,13,106948.0,2,Tarjeta,0,24+ meses,30-45,0.22985578313721708,Bajo
+171,44,Desconocida,Tv,47,40,190194.0,1,Desconocido,1,24+ meses,30-45,0.6611462644670367,Alto
+172,52,Rosario,Desconocido,18,8,34493.0,14,Efectivo,0,12-24 meses,45-60,0.07793868994172466,Bajo
+173,18,Rosario,Internet,21,5,490463.0,7,Efectivo,0,12-24 meses,,0.23049621700893286,Bajo
+174,52,Desconocida,Desconocido,13,9,471755.0,2,Efectivo,1,12-24 meses,45-60,0.6920675837688484,Alto
+175,54,Cordoba,Tv,21,1,298851.0,6,Desconocido,1,12-24 meses,45-60,0.5492655556252225,Medio
+176,64,Buenos aires,Telefonia,8,36,204886.0,11,Transferencia,0,6-12 meses,60+,0.20669034153943364,Bajo
+177,31,Cordoba,Tv,46,35,143368.0,10,Transferencia,0,24+ meses,30-45,0.22013183639712713,Bajo
+178,20,Mendoza,Tv,40,2,161470.0,0,Tarjeta,1,24+ meses,18-30,0.7805916843204076,Alto
+179,18,Buenos aires,Desconocido,46,40,302986.0,5,Tarjeta,1,24+ meses,,0.6003842741000784,Alto
+180,22,Buenos aires,Tv,7,23,18261.0,2,Efectivo,1,6-12 meses,18-30,0.22601388552020674,Bajo
+181,43,Rosario,Internet,23,9,81709.0,7,Tarjeta,0,12-24 meses,30-45,0.31238777403861406,Medio
+182,72,Cordoba,Internet,44,34,100985.0,5,Desconocido,0,24+ meses,60+,0.17386457734993294,Bajo
+183,31,Mendoza,Telefonia,32,46,373760.0,11,Desconocido,1,24+ meses,30-45,0.6842782659657844,Alto
+184,56,Desconocida,Telefonia,11,14,454920.0,1,Tarjeta,0,6-12 meses,45-60,0.24779165633333697,Bajo
+185,44,Desconocida,Internet,22,4,334317.0,5,Tarjeta,0,12-24 meses,30-45,0.4720973014175634,Medio
+186,26,Desconocida,Tv,22,30,298925.0,6,Tarjeta,1,12-24 meses,18-30,0.4557304968183521,Medio
+187,32,Rosario,Internet,43,31,280796.0,4,Tarjeta,0,24+ meses,30-45,0.22362109993838197,Bajo
+188,32,Rosario,Tv,25,38,272247.0,2,Efectivo,0,24+ meses,30-45,0.2042981590495163,Bajo
+189,43,Cordoba,Telefonia,22,11,292644.0,3,Efectivo,0,12-24 meses,30-45,0.27170511534767816,Bajo
+190,59,Mendoza,Internet,28,35,251404.0,3,Tarjeta,0,24+ meses,45-60,0.17543615978662214,Bajo
+191,77,Desconocida,Desconocido,29,8,105336.0,5,Desconocido,0,24+ meses,60+,0.21669771719720732,Bajo
+192,30,Rosario,Telefonia,13,3,433745.0,9,Efectivo,1,12-24 meses,18-30,0.5406404097058427,Medio
+193,68,Cordoba,Telefonia,18,14,118499.0,0,Desconocido,0,12-24 meses,60+,0.3853213142790271,Medio
+194,49,Cordoba,Tv,2,13,154524.0,10,Transferencia,0,0-6 meses,45-60,0.23017144933405048,Bajo
+195,56,Cordoba,Tv,29,45,316537.0,3,Desconocido,1,24+ meses,45-60,0.5169037355831761,Medio
+196,66,Rosario,Tv,21,32,429390.0,9,Tarjeta,0,12-24 meses,60+,0.32579527640687095,Medio
+197,69,Rosario,Desconocido,15,34,462666.0,12,Transferencia,0,12-24 meses,60+,0.19761051357860396,Bajo
+198,78,Rosario,Tv,27,45,171508.0,3,Efectivo,1,24+ meses,60+,0.763372131128328,Alto
+199,49,Desconocida,Tv,31,19,314550.0,9,Efectivo,1,24+ meses,45-60,0.6486206828204039,Alto
+200,21,Rosario,Internet,15,38,330203.0,0,Transferencia,0,12-24 meses,18-30,0.32758207416669033,Medio
+201,47,Desconocida,Internet,23,16,152026.0,8,Desconocido,1,12-24 meses,45-60,0.3055752774845268,Medio
+202,54,Desconocida,Telefonia,24,2,349866.0,3,Efectivo,0,12-24 meses,45-60,0.14749640209796522,Bajo
+203,40,Rosario,Tv,44,40,255819.0,6,Tarjeta,1,24+ meses,30-45,0.6346399438014277,Alto
+204,56,Rosario,Internet,13,17,17356.0,11,Transferencia,0,12-24 meses,45-60,0.3366620516918654,Medio
+205,62,Desconocida,Tv,22,34,133128.0,13,Tarjeta,1,12-24 meses,60+,0.3897467895483746,Medio
+206,32,Mendoza,Tv,43,42,496715.0,2,Transferencia,0,24+ meses,30-45,0.5582847570348916,Medio
+207,60,Cordoba,Telefonia,37,16,7187.0,9,Efectivo,0,24+ meses,45-60,0.25126634748975474,Bajo
+208,46,Cordoba,Internet,33,38,344387.0,11,Desconocido,0,24+ meses,45-60,0.2684244202201014,Bajo
+209,53,Cordoba,Tv,3,2,302242.0,2,Transferencia,0,0-6 meses,45-60,0.20878266695100656,Bajo
+210,30,Rosario,Desconocido,19,2,490687.0,13,Transferencia,1,12-24 meses,18-30,0.39414432565624524,Medio
+211,49,Rosario,Internet,23,26,157297.0,7,Tarjeta,0,12-24 meses,45-60,0.2625184762821204,Bajo
+212,24,Rosario,Desconocido,29,13,139678.0,7,Efectivo,0,24+ meses,18-30,0.20816696518779917,Bajo
+213,76,Desconocida,Telefonia,30,47,324764.0,10,Tarjeta,0,24+ meses,60+,0.3372812997983343,Medio
+214,68,Buenos aires,Telefonia,39,31,431044.0,11,Efectivo,0,24+ meses,60+,0.34354142626175266,Medio
+215,39,Desconocida,Telefonia,44,34,131270.0,0,Tarjeta,1,24+ meses,30-45,0.6537427143610935,Alto
+217,19,Mendoza,Desconocido,25,3,281531.0,1,Tarjeta,0,24+ meses,18-30,0.45593078801733933,Medio
+218,59,Cordoba,Internet,37,8,336607.0,7,Desconocido,1,24+ meses,45-60,0.5325614794297775,Medio
+219,62,Desconocida,Internet,47,23,470048.0,0,Efectivo,1,24+ meses,60+,0.7518773597790885,Alto
+222,70,Desconocida,Tv,16,29,400807.0,7,Efectivo,1,12-24 meses,60+,0.4882254237745336,Medio
+223,23,Rosario,Telefonia,8,39,246503.0,7,Desconocido,0,6-12 meses,18-30,0.263467527289715,Bajo
+224,45,Cordoba,Internet,1,39,446732.0,1,Tarjeta,1,0-6 meses,30-45,0.4877304583963983,Medio
+225,45,Rosario,Desconocido,44,1,358827.0,3,Transferencia,0,24+ meses,30-45,0.2812947496740756,Bajo
+226,61,Mendoza,Telefonia,5,17,67061.0,5,Desconocido,0,0-6 meses,60+,0.4315705316282951,Medio
+227,61,Buenos aires,Internet,3,41,240497.0,11,Efectivo,0,0-6 meses,60+,0.1840964495260607,Bajo
+228,37,Buenos aires,Tv,1,30,464952.0,10,Efectivo,0,0-6 meses,30-45,0.14540852368828047,Bajo
+229,47,Cordoba,Telefonia,4,13,86257.0,8,Desconocido,1,0-6 meses,45-60,0.723193407126163,Alto
+230,79,Mendoza,Telefonia,40,21,66753.0,14,Tarjeta,0,24+ meses,60+,0.11820165945165945,Bajo
+231,28,Buenos aires,Internet,35,19,351918.0,7,Tarjeta,0,24+ meses,18-30,0.26355014842580304,Bajo
+232,75,Mendoza,Tv,32,19,409303.0,11,Transferencia,1,24+ meses,60+,0.32948252609969375,Medio
+233,72,Cordoba,Internet,42,25,429032.0,14,Efectivo,0,24+ meses,60+,0.17813968780140121,Bajo
+234,45,Rosario,Desconocido,34,22,28408.0,7,Desconocido,0,24+ meses,30-45,0.22177536149480326,Bajo
+235,42,Buenos aires,Tv,43,31,129116.0,6,Tarjeta,1,24+ meses,30-45,0.49552617074626254,Medio
+236,56,Cordoba,Tv,25,17,136208.0,13,Transferencia,1,24+ meses,45-60,0.6635012859810829,Alto
+237,79,Cordoba,Telefonia,10,23,22413.0,12,Efectivo,0,6-12 meses,60+,0.26006606946026467,Bajo
+238,50,Desconocida,Internet,21,32,118650.0,8,Efectivo,0,12-24 meses,45-60,0.23234906060854157,Bajo
+239,18,Mendoza,Internet,46,10,64500.0,14,Transferencia,0,24+ meses,,0.4663237143603523,Medio
+240,74,Desconocida,Internet,39,10,351658.0,1,Transferencia,0,24+ meses,60+,0.15268996021101036,Bajo
+241,44,Rosario,Tv,27,36,61358.0,2,Tarjeta,0,24+ meses,30-45,0.36638994718023504,Medio
+242,79,Cordoba,Internet,27,8,71197.0,9,Desconocido,0,24+ meses,60+,0.27301790927287495,Bajo
+243,74,Desconocida,Telefonia,2,20,498992.0,7,Efectivo,0,0-6 meses,60+,0.1826988734090127,Bajo
+244,69,Buenos aires,Internet,41,32,228861.0,13,Desconocido,0,24+ meses,60+,0.16222666828584714,Bajo
+245,30,Mendoza,Desconocido,13,14,228492.0,5,Efectivo,0,12-24 meses,18-30,0.19310378275818926,Bajo
+246,58,Rosario,Internet,9,28,266545.0,9,Efectivo,0,6-12 meses,45-60,0.4500902250140804,Medio
+247,20,Cordoba,Internet,36,46,431070.0,8,Desconocido,1,24+ meses,18-30,0.3510245129074098,Medio
+248,56,Buenos aires,Tv,22,24,81240.0,9,Transferencia,1,12-24 meses,45-60,0.6675844845232999,Alto
+249,23,Cordoba,Tv,42,15,240595.0,3,Tarjeta,0,24+ meses,18-30,0.4816294163177426,Medio
+250,25,Rosario,Telefonia,26,22,226135.0,7,Efectivo,0,24+ meses,18-30,0.21268158542963897,Bajo
+251,44,Mendoza,Desconocido,12,30,283466.0,9,Transferencia,0,6-12 meses,30-45,0.6398920186601597,Alto
+252,26,Cordoba,Tv,17,4,380197.0,2,Efectivo,0,12-24 meses,18-30,0.32882465929524707,Medio
+253,79,Cordoba,Internet,14,13,11968.0,2,Tarjeta,0,12-24 meses,60+,0.2282708110640201,Bajo
+254,54,Rosario,Telefonia,14,23,294662.0,7,Efectivo,0,12-24 meses,45-60,0.22340150566515735,Bajo
+255,50,Rosario,Tv,34,8,319069.0,4,Tarjeta,0,24+ meses,45-60,0.47398999264035113,Medio
+256,68,Cordoba,Internet,20,18,195920.0,2,Tarjeta,1,12-24 meses,60+,0.5915137116317917,Medio
+257,59,Rosario,Tv,11,12,379044.0,9,Efectivo,0,6-12 meses,45-60,0.40184387859989007,Medio
+258,61,Cordoba,Internet,16,31,360566.0,10,Efectivo,0,12-24 meses,60+,0.3252176019319436,Medio
+259,41,Buenos aires,Tv,31,14,268844.0,0,Tarjeta,1,24+ meses,30-45,0.6352548210257857,Alto
+260,32,Buenos aires,Telefonia,6,34,360926.0,14,Transferencia,0,0-6 meses,30-45,0.23590530632032006,Bajo
+261,76,Cordoba,Internet,19,18,237076.0,2,Desconocido,0,12-24 meses,60+,0.30774991572875554,Medio
+262,71,Rosario,Desconocido,37,34,28199.0,11,Tarjeta,0,24+ meses,60+,0.21890083537770344,Bajo
+263,49,Cordoba,Internet,4,11,442805.0,8,Efectivo,0,0-6 meses,45-60,0.3243648396924208,Medio
+264,49,Rosario,Desconocido,47,41,168187.0,4,Efectivo,1,24+ meses,45-60,0.6124175123241404,Alto
+265,41,Rosario,Desconocido,4,12,460150.0,11,Transferencia,0,0-6 meses,30-45,0.25784106480111924,Bajo
+266,58,Desconocida,Internet,20,49,190388.0,9,Desconocido,0,12-24 meses,45-60,0.25140272264941815,Bajo
+267,69,Mendoza,Desconocido,10,15,10520.0,14,Tarjeta,0,6-12 meses,60+,0.11174238738643633,Bajo
+268,66,Rosario,Internet,24,31,114814.0,1,Tarjeta,0,12-24 meses,60+,0.2550541085677087,Bajo
+269,79,Rosario,Internet,35,49,172527.0,6,Desconocido,1,24+ meses,60+,0.36876364866146255,Medio
+270,66,Rosario,Internet,26,29,251356.0,14,Tarjeta,1,24+ meses,60+,0.6174789194076938,Alto
+271,75,Rosario,Internet,37,26,484681.0,1,Desconocido,0,24+ meses,60+,0.4939481155931382,Medio
+272,69,Rosario,Desconocido,38,18,128364.0,3,Efectivo,0,24+ meses,60+,0.23536049381309873,Bajo
+273,29,Desconocida,Internet,21,32,439821.0,11,Desconocido,0,12-24 meses,18-30,0.2521045777063105,Bajo
+274,79,Desconocida,Internet,40,22,19955.0,6,Tarjeta,1,24+ meses,60+,0.40785661517704874,Medio
+275,56,Buenos aires,Desconocido,39,38,180121.0,3,Desconocido,0,24+ meses,45-60,0.32014940520188384,Medio
+276,19,Desconocida,Desconocido,21,17,149989.0,6,Transferencia,0,12-24 meses,18-30,0.24563200461337217,Bajo
+277,20,Rosario,Tv,10,23,468509.0,6,Efectivo,0,6-12 meses,18-30,0.1482888340135526,Bajo
+278,66,Rosario,Tv,38,24,476797.0,0,Efectivo,0,24+ meses,60+,0.31533237725654395,Medio
+279,54,Desconocida,Tv,46,8,255144.0,5,Desconocido,0,24+ meses,45-60,0.3515716758354737,Medio
+280,66,Cordoba,Telefonia,4,41,69925.0,8,Tarjeta,0,0-6 meses,60+,0.664905100186985,Alto
+281,73,Mendoza,Tv,45,6,374360.0,1,Transferencia,0,24+ meses,60+,0.15928707257654623,Bajo
+282,34,Desconocida,Internet,20,5,75269.0,13,Efectivo,0,12-24 meses,30-45,0.33679640000213706,Medio
+284,66,Cordoba,Tv,7,29,494887.0,9,Tarjeta,1,6-12 meses,60+,0.4220019551999917,Medio
+285,19,Mendoza,Desconocido,4,28,470833.0,4,Tarjeta,0,0-6 meses,18-30,0.19038721487537277,Bajo
+286,19,Mendoza,Tv,29,11,308602.0,8,Transferencia,0,24+ meses,18-30,0.3473639190330367,Medio
+287,45,Rosario,Desconocido,14,1,356181.0,3,Desconocido,0,12-24 meses,30-45,0.2937111387226953,Bajo
+288,71,Mendoza,Desconocido,3,43,157185.0,0,Tarjeta,0,0-6 meses,60+,0.34648109243697467,Medio
+289,40,Desconocida,Telefonia,24,19,104977.0,3,Desconocido,0,12-24 meses,30-45,0.41196585977685507,Medio
+290,54,Rosario,Tv,37,9,488442.0,5,Transferencia,1,24+ meses,45-60,0.6043965809122299,Alto
+291,49,Rosario,Internet,16,27,311083.0,4,Desconocido,0,12-24 meses,45-60,0.48208379708595034,Medio
+292,50,Buenos aires,Internet,4,34,34345.0,13,Efectivo,1,0-6 meses,45-60,0.15044579308620798,Bajo
+293,18,Rosario,Internet,24,44,260688.0,12,Desconocido,0,12-24 meses,,0.24864327553300483,Bajo
+294,36,Rosario,Desconocido,34,4,444529.0,0,Transferencia,0,24+ meses,30-45,0.2082571870560897,Bajo
+295,79,Rosario,Internet,30,36,377251.0,3,Transferencia,0,24+ meses,60+,0.4762987508003265,Medio
+296,19,Rosario,Telefonia,18,18,389010.0,5,Transferencia,0,12-24 meses,18-30,0.15812440385159626,Bajo
+297,70,Buenos aires,Desconocido,19,15,490581.0,12,Desconocido,1,12-24 meses,60+,0.36185745790509943,Medio
+298,61,Cordoba,Telefonia,31,13,266798.0,14,Efectivo,1,24+ meses,60+,0.1454851290824936,Bajo
+299,43,Desconocida,Internet,19,19,498814.0,9,Tarjeta,1,12-24 meses,30-45,0.7376463517954488,Alto
+300,49,Rosario,Internet,46,49,336310.0,9,Efectivo,1,24+ meses,45-60,0.5998661139159691,Medio
+301,23,Cordoba,Internet,19,6,183933.0,13,Desconocido,1,12-24 meses,18-30,0.34268660836717774,Medio
+302,49,Rosario,Internet,22,48,102406.0,3,Desconocido,0,12-24 meses,45-60,0.33448170291077,Medio
+303,72,Cordoba,Desconocido,24,12,316442.0,14,Tarjeta,0,12-24 meses,60+,0.20502857662757262,Bajo
+304,21,Mendoza,Desconocido,45,37,445437.0,13,Desconocido,0,24+ meses,18-30,0.31996239532824894,Medio
+305,72,Cordoba,Desconocido,12,17,312086.0,8,Transferencia,0,6-12 meses,60+,0.21448488572089502,Bajo
+306,28,Rosario,Internet,30,23,8453.0,4,Transferencia,1,24+ meses,18-30,0.7619277339897085,Alto
+307,73,Cordoba,Internet,38,26,107811.0,7,Transferencia,0,24+ meses,60+,0.2252886296641313,Bajo
+308,76,Rosario,Internet,31,29,59935.0,8,Transferencia,0,24+ meses,60+,0.5345465128272735,Medio
+309,34,Mendoza,Tv,36,33,389583.0,9,Transferencia,0,24+ meses,30-45,0.435862132548581,Medio
+310,55,Rosario,Tv,19,27,179442.0,4,Desconocido,0,12-24 meses,45-60,0.4799149286604394,Medio
+311,41,Mendoza,Internet,45,25,275472.0,5,Tarjeta,0,24+ meses,30-45,0.24375052083794177,Bajo
+312,22,Buenos aires,Internet,36,10,20534.0,0,Tarjeta,0,24+ meses,18-30,0.5759484465386562,Medio
+313,69,Mendoza,Tv,30,47,352424.0,10,Transferencia,0,24+ meses,60+,0.297603519902353,Bajo
+314,51,Buenos aires,Internet,33,23,275628.0,11,Desconocido,0,24+ meses,45-60,0.3604290450111045,Medio
+315,23,Mendoza,Internet,18,21,41320.0,14,Efectivo,0,12-24 meses,18-30,0.23001539908892848,Bajo
+316,39,Desconocida,Internet,28,21,54170.0,6,Efectivo,0,24+ meses,30-45,0.41272502039965225,Medio
+317,28,Buenos aires,Tv,47,43,105546.0,3,Desconocido,0,24+ meses,18-30,0.24660582307017304,Bajo
+318,65,Cordoba,Desconocido,11,13,85201.0,10,Transferencia,0,6-12 meses,60+,0.19895630676251755,Bajo
+319,33,Rosario,Internet,45,37,239473.0,1,Tarjeta,0,24+ meses,30-45,0.1779519780502897,Bajo
+320,50,Rosario,Tv,33,33,275784.0,4,Desconocido,0,24+ meses,45-60,0.4389304116362615,Medio
+321,26,Cordoba,Internet,17,24,236324.0,11,Efectivo,0,12-24 meses,18-30,0.1539554113640494,Bajo
+322,77,Rosario,Tv,6,44,489273.0,2,Efectivo,0,0-6 meses,60+,0.18644234966774265,Bajo
+323,76,Rosario,Desconocido,4,11,166121.0,5,Efectivo,0,0-6 meses,60+,0.29207868123916636,Bajo
+324,23,Desconocida,Tv,20,17,403834.0,7,Transferencia,0,12-24 meses,18-30,0.12879206735309812,Bajo
+325,33,Mendoza,Desconocido,47,4,238612.0,6,Efectivo,0,24+ meses,30-45,0.16849019658638106,Bajo
+326,46,Cordoba,Tv,27,47,275628.0,2,Desconocido,1,24+ meses,45-60,0.6359493323838551,Alto
+327,20,Rosario,Desconocido,15,25,400136.0,7,Desconocido,0,12-24 meses,18-30,0.11898202308947056,Bajo
+328,37,Rosario,Tv,6,30,311081.0,1,Efectivo,1,0-6 meses,30-45,0.1515254816864083,Bajo
+329,77,Buenos aires,Tv,47,9,205796.0,9,Desconocido,0,24+ meses,60+,0.3823816752245326,Medio
+330,76,Rosario,Tv,14,21,148279.0,8,Efectivo,0,12-24 meses,60+,0.4016293053164086,Medio
+331,53,Cordoba,Tv,11,20,201846.0,3,Efectivo,0,6-12 meses,45-60,0.5682467283057673,Medio
+332,36,Cordoba,Internet,39,19,169044.0,0,Tarjeta,0,24+ meses,30-45,0.2809308989821759,Bajo
+333,43,Cordoba,Internet,9,19,409015.0,7,Transferencia,0,6-12 meses,30-45,0.5140328664681697,Medio
+334,20,Desconocida,Telefonia,26,12,207160.0,6,Transferencia,0,24+ meses,18-30,0.24478128237928448,Bajo
+335,36,Cordoba,Tv,16,37,427132.0,10,Tarjeta,0,12-24 meses,30-45,0.3499286353566062,Medio
+336,37,Mendoza,Telefonia,5,42,75463.0,12,Tarjeta,0,0-6 meses,30-45,0.23026891009433445,Bajo
+337,49,Cordoba,Telefonia,10,17,98500.0,4,Transferencia,0,6-12 meses,45-60,0.35385914103571053,Medio
+338,24,Cordoba,Desconocido,3,37,212772.0,9,Efectivo,0,0-6 meses,18-30,0.11915128935642434,Bajo
+339,69,Cordoba,Internet,13,48,42158.0,12,Efectivo,0,12-24 meses,60+,0.1438694107000525,Bajo
+340,58,Mendoza,Desconocido,43,39,89607.0,4,Transferencia,0,24+ meses,45-60,0.31575081890016177,Medio
+341,50,Buenos aires,Internet,30,28,386783.0,6,Efectivo,1,24+ meses,45-60,0.6124175391367445,Alto
+342,57,Desconocida,Internet,45,41,250017.0,4,Tarjeta,1,24+ meses,45-60,0.5377589473109794,Medio
+343,56,Cordoba,Tv,6,35,338840.0,7,Efectivo,1,0-6 meses,45-60,0.37267981626338204,Medio
+344,35,Buenos aires,Internet,17,47,328654.0,10,Efectivo,0,12-24 meses,30-45,0.20326202584308903,Bajo
+345,57,Buenos aires,Tv,45,48,125076.0,12,Desconocido,1,24+ meses,45-60,0.49896122152435646,Medio
+346,18,Buenos aires,Internet,19,18,63692.0,5,Desconocido,1,12-24 meses,,0.5836939109632765,Medio
+347,28,Rosario,Desconocido,42,14,135841.0,12,Desconocido,0,24+ meses,18-30,0.3027966061146732,Medio
+348,45,Desconocida,Internet,35,35,197816.0,4,Efectivo,0,24+ meses,30-45,0.3100346650131301,Medio
+349,74,Rosario,Desconocido,46,44,282954.0,8,Transferencia,1,24+ meses,60+,0.7045981911146104,Alto
+350,42,Desconocida,Telefonia,26,41,403342.0,10,Tarjeta,0,24+ meses,30-45,0.4407341931183384,Medio
+351,67,Rosario,Telefonia,5,7,166081.0,1,Efectivo,0,0-6 meses,60+,0.15869652150615235,Bajo
+352,40,Rosario,Internet,29,41,497336.0,0,Transferencia,0,24+ meses,30-45,0.35953790245481265,Medio
+353,48,Desconocida,Internet,37,13,116718.0,7,Efectivo,0,24+ meses,45-60,0.3326467851685814,Medio
+354,47,Buenos aires,Desconocido,20,18,358076.0,11,Tarjeta,1,12-24 meses,45-60,0.3002752515888293,Medio
+355,59,Cordoba,Tv,21,37,5192.0,2,Efectivo,0,12-24 meses,45-60,0.6321609881005541,Alto
+356,52,Rosario,Desconocido,10,13,252536.0,13,Tarjeta,0,6-12 meses,45-60,0.18554718486909208,Bajo
+357,24,Mendoza,Tv,5,36,41413.0,10,Efectivo,0,0-6 meses,18-30,0.31157214410062506,Medio
+358,77,Mendoza,Telefonia,36,31,148888.0,11,Tarjeta,0,24+ meses,60+,0.28595378373009944,Bajo
+359,33,Cordoba,Internet,6,2,44082.0,11,Efectivo,0,0-6 meses,30-45,0.26371645323145976,Bajo
+360,43,Rosario,Internet,26,16,332192.0,11,Tarjeta,0,24+ meses,30-45,0.40031363063847264,Medio
+361,65,Cordoba,Tv,4,9,128130.0,6,Desconocido,1,0-6 meses,60+,0.5840518057082741,Medio
+362,74,Rosario,Desconocido,39,9,55940.0,9,Efectivo,0,24+ meses,60+,0.18683030840979087,Bajo
+363,69,Buenos aires,Telefonia,39,38,168202.0,12,Efectivo,0,24+ meses,60+,0.21933177881091545,Bajo
+364,77,Cordoba,Tv,35,11,45142.0,10,Transferencia,0,24+ meses,60+,0.5318772190839457,Medio
+365,66,Mendoza,Desconocido,1,22,41468.0,7,Transferencia,0,0-6 meses,60+,0.1744171468818723,Bajo
+366,19,Rosario,Internet,24,33,428914.0,14,Tarjeta,1,12-24 meses,18-30,0.4475623034375504,Medio
+367,18,Rosario,Internet,36,36,146727.0,12,Efectivo,1,24+ meses,,0.35519958028522153,Medio
+368,65,Buenos aires,Tv,6,45,183969.0,12,Tarjeta,1,0-6 meses,60+,0.26340696166978045,Bajo
+369,79,Rosario,Internet,41,23,428291.0,5,Desconocido,0,24+ meses,60+,0.3975958245358014,Medio
+370,29,Mendoza,Tv,46,45,407575.0,11,Transferencia,0,24+ meses,18-30,0.37382704251148874,Medio
+371,22,Cordoba,Telefonia,44,45,396192.0,9,Tarjeta,0,24+ meses,18-30,0.1465036160007231,Bajo
+372,54,Rosario,Tv,31,34,241187.0,13,Tarjeta,0,24+ meses,45-60,0.21641415205230577,Bajo
+373,49,Buenos aires,Telefonia,20,9,47056.0,8,Transferencia,1,12-24 meses,45-60,0.7462498578774972,Alto
+374,76,Cordoba,Desconocido,24,24,56831.0,6,Efectivo,1,12-24 meses,60+,0.31468765726761916,Medio
+375,72,Rosario,Internet,25,8,326335.0,14,Tarjeta,1,24+ meses,60+,0.6517363222100307,Alto
+376,26,Mendoza,Tv,36,7,254664.0,9,Transferencia,1,24+ meses,18-30,0.6863000766193743,Alto
+377,58,Rosario,Tv,21,36,389092.0,4,Efectivo,1,12-24 meses,45-60,0.40136735101392623,Medio
+378,52,Rosario,Tv,30,18,431488.0,7,Desconocido,0,24+ meses,45-60,0.44625820553831197,Medio
+379,36,Cordoba,Telefonia,24,3,113117.0,14,Transferencia,0,12-24 meses,30-45,0.4648311192548997,Medio
+380,65,Cordoba,Internet,44,28,281815.0,1,Tarjeta,0,24+ meses,60+,0.3956514805916441,Medio
+381,33,Cordoba,Tv,42,6,294192.0,6,Desconocido,0,24+ meses,30-45,0.39869018889192936,Medio
+382,20,Rosario,Desconocido,30,44,474490.0,14,Efectivo,0,24+ meses,18-30,0.13865591621717271,Bajo
+383,37,Rosario,Tv,22,44,293107.0,3,Efectivo,0,12-24 meses,30-45,0.1995620727983003,Bajo
+384,41,Rosario,Telefonia,28,21,48954.0,8,Transferencia,1,24+ meses,30-45,0.8389912499336583,Alto
+385,71,Cordoba,Desconocido,7,28,470525.0,11,Transferencia,0,6-12 meses,60+,0.11813182175601637,Bajo
+386,73,Rosario,Tv,35,40,238192.0,0,Transferencia,1,24+ meses,60+,0.6038597779733244,Alto
+387,50,Mendoza,Internet,28,1,362574.0,6,Efectivo,1,24+ meses,45-60,0.7887432261086152,Alto
+388,41,Buenos aires,Telefonia,14,36,5717.0,5,Desconocido,0,12-24 meses,30-45,0.38392782170348605,Medio
+390,28,Cordoba,Internet,16,43,402650.0,4,Tarjeta,0,12-24 meses,18-30,0.2956496650053882,Bajo
+391,66,Buenos aires,Tv,16,35,185882.0,14,Efectivo,1,12-24 meses,60+,0.6313214123077981,Alto
+392,25,Cordoba,Telefonia,31,13,123696.0,0,Tarjeta,1,24+ meses,18-30,0.7710790338810856,Alto
+393,53,Desconocida,Telefonia,42,49,492852.0,0,Desconocido,1,24+ meses,45-60,0.6473805523044827,Alto
+394,55,Rosario,Tv,25,10,397974.0,8,Transferencia,0,24+ meses,45-60,0.3377770424550576,Medio
+395,57,Rosario,Tv,13,44,9994.0,14,Transferencia,0,12-24 meses,45-60,0.49264215236666864,Medio
+396,37,Cordoba,Desconocido,6,47,271378.0,9,Efectivo,0,0-6 meses,30-45,0.14058468934783472,Bajo
+397,79,Rosario,Internet,44,10,74300.0,5,Transferencia,1,24+ meses,60+,0.4050990324121506,Medio
+398,52,Buenos aires,Internet,9,46,311093.0,9,Desconocido,0,6-12 meses,45-60,0.38203185732508965,Medio
+399,65,Desconocida,Internet,45,13,42405.0,4,Transferencia,0,24+ meses,60+,0.22745511954205924,Bajo
+400,79,Desconocida,Desconocido,36,37,302016.0,14,Efectivo,0,24+ meses,60+,0.1072761137819619,Bajo
+401,42,Desconocida,Tv,43,38,309359.0,0,Desconocido,0,24+ meses,30-45,0.5128679996549259,Medio
+402,52,Buenos aires,Tv,20,24,28185.0,5,Tarjeta,0,12-24 meses,45-60,0.24602256293491187,Bajo
+403,42,Buenos aires,Tv,18,2,179514.0,5,Efectivo,0,12-24 meses,30-45,0.5979042730291747,Medio
+404,46,Buenos aires,Internet,43,22,449975.0,2,Tarjeta,0,24+ meses,45-60,0.3563447604210236,Medio
+405,35,Buenos aires,Tv,21,17,308297.0,12,Desconocido,0,12-24 meses,30-45,0.2268783596225491,Bajo
+406,63,Desconocida,Internet,4,36,344679.0,7,Efectivo,1,0-6 meses,60+,0.6651964055734557,Alto
+407,35,Desconocida,Internet,33,14,138653.0,13,Efectivo,1,24+ meses,30-45,0.5199784037153908,Medio
+408,19,Cordoba,Internet,27,10,56717.0,14,Desconocido,0,24+ meses,18-30,0.3977607884762297,Medio
+409,71,Rosario,Desconocido,7,35,7763.0,0,Transferencia,1,6-12 meses,60+,0.28298112876436504,Bajo
+410,52,Cordoba,Internet,6,25,360054.0,0,Efectivo,0,0-6 meses,45-60,0.24204358901152048,Bajo
+411,33,Rosario,Internet,15,3,60480.0,5,Efectivo,0,12-24 meses,30-45,0.21968451920797347,Bajo
+412,78,Desconocida,Tv,18,47,174831.0,9,Tarjeta,1,12-24 meses,60+,0.5962667473840527,Medio
+413,58,Rosario,Internet,32,38,212139.0,12,Transferencia,1,24+ meses,45-60,0.6975673840086002,Alto
+414,53,Rosario,Telefonia,11,17,123094.0,0,Tarjeta,1,6-12 meses,45-60,0.6625603954013292,Alto
+415,50,Rosario,Internet,20,12,161379.0,5,Tarjeta,0,12-24 meses,45-60,0.24300622606446123,Bajo
+416,21,Rosario,Internet,24,24,232443.0,0,Transferencia,0,12-24 meses,18-30,0.38396754510384457,Medio
+417,50,Desconocida,Tv,15,29,16064.0,13,Transferencia,1,12-24 meses,45-60,0.7340559078512,Alto
+418,31,Rosario,Tv,7,43,81848.0,12,Desconocido,0,6-12 meses,30-45,0.19390665517743372,Bajo
+419,38,Cordoba,Tv,21,25,42548.0,5,Transferencia,0,12-24 meses,30-45,0.6431956505547045,Alto
+420,65,Mendoza,Internet,42,36,173017.0,2,Efectivo,1,24+ meses,60+,0.3581326981628321,Medio
+421,37,Desconocida,Tv,26,26,446153.0,13,Transferencia,1,24+ meses,30-45,0.3629486572108884,Medio
+422,73,Desconocida,Tv,44,38,273620.0,13,Desconocido,1,24+ meses,60+,0.6496409738667185,Alto
+423,25,Cordoba,Internet,14,1,449972.0,14,Desconocido,0,12-24 meses,18-30,0.2972622467929339,Bajo
+424,24,Buenos aires,Desconocido,37,20,357245.0,7,Desconocido,1,24+ meses,18-30,0.3509605298271314,Medio
+425,20,Mendoza,Tv,21,28,7382.0,12,Transferencia,0,12-24 meses,18-30,0.5308171555084218,Medio
+426,34,Rosario,Telefonia,18,16,275628.0,14,Transferencia,0,12-24 meses,30-45,0.19149107374596838,Bajo
+427,50,Desconocida,Telefonia,5,47,486215.0,5,Tarjeta,0,0-6 meses,45-60,0.24259696066602893,Bajo
+428,65,Rosario,Tv,3,17,181348.0,12,Tarjeta,0,0-6 meses,60+,0.21826013647507947,Bajo
+429,29,Mendoza,Desconocido,23,40,431618.0,10,Efectivo,0,12-24 meses,18-30,0.23521723453943164,Bajo
+430,76,Cordoba,Tv,26,28,490097.0,12,Tarjeta,0,24+ meses,60+,0.3021786872959536,Medio
+431,68,Rosario,Internet,37,12,425162.0,0,Efectivo,0,24+ meses,60+,0.5081226948604375,Medio
+432,39,Buenos aires,Telefonia,24,27,84698.0,14,Desconocido,0,12-24 meses,30-45,0.42369835115417565,Medio
+433,72,Buenos aires,Tv,19,42,250762.0,4,Tarjeta,0,12-24 meses,60+,0.42223875006815953,Medio
+434,39,Cordoba,Tv,25,47,248381.0,7,Transferencia,0,24+ meses,30-45,0.61307575513138,Alto
+435,63,Cordoba,Tv,21,30,472149.0,2,Tarjeta,0,12-24 meses,60+,0.24742635513006317,Bajo
+436,47,Rosario,Internet,12,41,420551.0,11,Efectivo,1,6-12 meses,45-60,0.39630649187776185,Medio
+437,55,Desconocida,Telefonia,41,34,50095.0,5,Tarjeta,1,24+ meses,45-60,0.7519844227987953,Alto
+438,55,Buenos aires,Tv,33,37,478146.0,4,Desconocido,0,24+ meses,45-60,0.5400958955555023,Medio
+439,62,Rosario,Internet,4,6,397118.0,5,Transferencia,1,0-6 meses,60+,0.5802033365357375,Medio
+440,68,Mendoza,Desconocido,42,7,294341.0,9,Efectivo,0,24+ meses,60+,0.12503215779450141,Bajo
+441,71,Rosario,Tv,7,32,394763.0,0,Transferencia,0,6-12 meses,60+,0.19165907960323916,Bajo
+442,25,Cordoba,Internet,22,32,27010.0,6,Transferencia,1,12-24 meses,18-30,0.7058559996827779,Alto
+443,44,Cordoba,Desconocido,33,25,422339.0,8,Efectivo,0,24+ meses,30-45,0.17167369795128098,Bajo
+444,44,Cordoba,Desconocido,17,33,355067.0,1,Transferencia,1,12-24 meses,30-45,0.579759015183885,Medio
+445,51,Rosario,Tv,24,7,138962.0,9,Transferencia,0,12-24 meses,45-60,0.498167064204868,Medio
+446,38,Cordoba,Tv,34,12,491521.0,14,Tarjeta,1,24+ meses,30-45,0.6308118420131801,Alto
+447,47,Buenos aires,Tv,28,16,397670.0,4,Transferencia,0,24+ meses,45-60,0.38654525702673864,Medio
+448,50,Rosario,Desconocido,43,16,114162.0,9,Transferencia,0,24+ meses,45-60,0.28459245299291314,Bajo
+449,45,Rosario,Tv,41,43,388071.0,3,Transferencia,0,24+ meses,30-45,0.27059979395444145,Bajo
+450,64,Cordoba,Internet,39,36,275170.0,5,Transferencia,1,24+ meses,60+,0.6529373240660687,Alto
+451,50,Desconocida,Desconocido,22,13,332069.0,5,Efectivo,0,12-24 meses,45-60,0.2248454432324442,Bajo
+452,22,Desconocida,Desconocido,17,7,73842.0,10,Desconocido,1,12-24 meses,18-30,0.335067767873597,Medio
+453,77,Mendoza,Internet,34,36,300809.0,1,Tarjeta,0,24+ meses,60+,0.12399659500370935,Bajo
+454,78,Cordoba,Tv,6,47,276421.0,1,Transferencia,0,0-6 meses,60+,0.19055070194070786,Bajo
+455,65,Mendoza,Desconocido,46,9,178311.0,3,Transferencia,0,24+ meses,60+,0.4968579021763627,Medio
+456,36,Desconocida,Internet,6,32,445880.0,0,Efectivo,0,0-6 meses,30-45,0.4009928143761012,Medio
+457,21,Cordoba,Internet,34,11,315152.0,8,Desconocido,1,24+ meses,18-30,0.3061170003511279,Medio
+458,52,Cordoba,Tv,1,8,281827.0,13,Transferencia,0,0-6 meses,45-60,0.17253229800409756,Bajo
+459,66,Cordoba,Desconocido,10,33,136742.0,13,Efectivo,0,6-12 meses,60+,0.24081945047441505,Bajo
+460,34,Desconocida,Internet,21,23,225283.0,12,Tarjeta,0,12-24 meses,30-45,0.2740280127284516,Bajo
+461,61,Mendoza,Telefonia,5,25,153961.0,6,Tarjeta,0,0-6 meses,60+,0.3679682172845722,Medio
+462,45,Mendoza,Internet,2,8,453828.0,11,Transferencia,1,0-6 meses,30-45,0.4751768295705746,Medio
+463,47,Cordoba,Internet,22,45,180607.0,6,Transferencia,0,12-24 meses,45-60,0.5951420018925119,Medio
+464,46,Cordoba,Internet,2,22,345686.0,14,Desconocido,0,0-6 meses,45-60,0.13570051394202942,Bajo
+465,63,Rosario,Tv,10,4,321463.0,2,Desconocido,1,6-12 meses,60+,0.38208569191227504,Medio
+466,70,Desconocida,Telefonia,34,40,250144.0,14,Transferencia,1,24+ meses,60+,0.6987347133752735,Alto
+467,23,Rosario,Tv,16,3,359211.0,10,Efectivo,0,12-24 meses,18-30,0.219920070058984,Bajo
+468,52,Rosario,Tv,39,29,157711.0,14,Desconocido,0,24+ meses,45-60,0.22277763635020606,Bajo
+469,77,Mendoza,Internet,22,41,200784.0,11,Transferencia,0,12-24 meses,60+,0.2896779262061231,Bajo
+470,58,Mendoza,Internet,12,29,414849.0,2,Desconocido,0,6-12 meses,45-60,0.4356928965933978,Medio
+471,54,Cordoba,Internet,24,34,257217.0,0,Transferencia,1,12-24 meses,45-60,0.6363289157366702,Alto
+472,41,Rosario,Tv,47,34,432876.0,2,Tarjeta,0,24+ meses,30-45,0.47163850998628065,Medio
+473,46,Rosario,Telefonia,40,28,336119.0,2,Transferencia,0,24+ meses,45-60,0.42724695953805025,Medio
+474,66,Cordoba,Tv,38,13,168244.0,3,Tarjeta,0,24+ meses,60+,0.3601772648751137,Medio
+475,63,Mendoza,Telefonia,10,15,457413.0,3,Desconocido,0,6-12 meses,60+,0.18704848377135405,Bajo
+476,70,Rosario,Desconocido,35,23,106158.0,2,Transferencia,0,24+ meses,60+,0.296154935605476,Bajo
+477,48,Rosario,Desconocido,32,44,457063.0,9,Desconocido,0,24+ meses,45-60,0.2361191657038316,Bajo
+478,52,Cordoba,Tv,7,26,278721.0,11,Tarjeta,0,6-12 meses,45-60,0.4541281964929922,Medio
+479,77,Rosario,Tv,21,4,344443.0,7,Transferencia,0,12-24 meses,60+,0.246550500561064,Bajo
+480,50,Rosario,Tv,20,26,287320.0,7,Desconocido,0,12-24 meses,45-60,0.4378004531403076,Medio
+481,69,Desconocida,Internet,26,40,442602.0,12,Tarjeta,0,24+ meses,60+,0.3329672570789017,Medio
+482,78,Desconocida,Desconocido,4,9,68972.0,12,Desconocido,0,0-6 meses,60+,0.2621182237026796,Bajo
+483,38,Cordoba,Internet,46,5,387162.0,0,Efectivo,0,24+ meses,30-45,0.17533368549173164,Bajo
+484,49,Rosario,Internet,22,32,488007.0,6,Tarjeta,0,12-24 meses,45-60,0.5814376632361635,Medio
+485,40,Rosario,Tv,15,20,439219.0,10,Tarjeta,0,12-24 meses,30-45,0.520383915642149,Medio
+486,50,Mendoza,Internet,40,11,287140.0,1,Tarjeta,0,24+ meses,45-60,0.19897095931629635,Bajo
+487,20,Cordoba,Telefonia,21,15,105922.0,0,Transferencia,0,12-24 meses,18-30,0.5916247784342574,Medio
+488,35,Cordoba,Internet,15,32,353742.0,2,Transferencia,1,12-24 meses,30-45,0.7182630695597015,Alto
+489,42,Rosario,Internet,22,28,40931.0,3,Transferencia,1,12-24 meses,30-45,0.6889077579132291,Alto
+490,59,Cordoba,Internet,28,22,129168.0,12,Efectivo,1,24+ meses,45-60,0.27136872945343576,Bajo
+491,48,Buenos aires,Desconocido,14,41,171782.0,5,Efectivo,0,12-24 meses,45-60,0.3199078853902724,Medio
+492,71,Buenos aires,Internet,27,17,128099.0,9,Tarjeta,1,24+ meses,60+,0.3479436759224781,Medio
+493,75,Desconocida,Internet,41,26,39693.0,13,Efectivo,0,24+ meses,60+,0.24548300846328305,Bajo
+494,20,Mendoza,Internet,40,44,433956.0,4,Desconocido,0,24+ meses,18-30,0.41916440633555446,Medio
+495,57,Rosario,Telefonia,28,7,475457.0,14,Tarjeta,0,24+ meses,45-60,0.47052755383644523,Medio
+496,63,Mendoza,Tv,26,42,113944.0,14,Tarjeta,1,24+ meses,60+,0.7286022971369549,Alto
+497,41,Mendoza,Tv,2,26,229655.0,13,Desconocido,0,0-6 meses,30-45,0.27053130361915456,Bajo
+498,67,Mendoza,Internet,25,25,212574.0,3,Tarjeta,0,24+ meses,60+,0.1843948724411143,Bajo
+499,49,Mendoza,Tv,3,10,284518.0,7,Efectivo,1,0-6 meses,45-60,0.40537895386215195,Medio
+500,64,Cordoba,Internet,8,45,474890.0,10,Transferencia,1,6-12 meses,60+,0.4261222721305885,Medio
+501,39,Cordoba,Internet,44,19,252572.0,11,Desconocido,0,24+ meses,30-45,0.15192449079923473,Bajo
+502,40,Desconocida,Internet,33,11,348615.0,13,Efectivo,0,24+ meses,30-45,0.1774195095939553,Bajo
+503,19,Cordoba,Internet,42,13,50913.0,3,Desconocido,0,24+ meses,18-30,0.39592312129859253,Medio
+504,44,Buenos aires,Desconocido,35,8,390827.0,12,Desconocido,1,24+ meses,30-45,0.5024000064454992,Medio
+505,59,Mendoza,Internet,6,40,202097.0,9,Tarjeta,0,0-6 meses,45-60,0.19631572249084278,Bajo
+506,19,Desconocida,Telefonia,39,4,311660.0,11,Tarjeta,0,24+ meses,18-30,0.24966160516003405,Bajo
+507,43,Cordoba,Tv,23,47,92796.0,12,Efectivo,1,12-24 meses,30-45,0.8229399963954976,Alto
+508,34,Buenos aires,Internet,25,31,293213.0,1,Desconocido,0,24+ meses,30-45,0.27451673262843906,Bajo
+509,57,Rosario,Tv,43,28,385477.0,14,Tarjeta,0,24+ meses,45-60,0.13004543453381837,Bajo
+510,50,Rosario,Desconocido,19,11,454449.0,2,Tarjeta,0,12-24 meses,45-60,0.4191452344800745,Medio
+511,26,Cordoba,Tv,5,43,89811.0,5,Desconocido,0,0-6 meses,18-30,0.21056826185164534,Bajo
+512,60,Rosario,Internet,11,1,195121.0,7,Efectivo,0,6-12 meses,45-60,0.42590606894695165,Medio
+513,71,Buenos aires,Tv,12,49,237892.0,7,Efectivo,0,6-12 meses,60+,0.5041415014259332,Medio
+514,65,Rosario,Internet,10,47,385172.0,14,Desconocido,0,6-12 meses,60+,0.29347521043091396,Bajo
+515,56,Rosario,Tv,8,38,44178.0,10,Efectivo,0,6-12 meses,45-60,0.2936788859541183,Bajo
+516,46,Desconocida,Tv,24,24,299965.0,14,Tarjeta,0,12-24 meses,45-60,0.16725810028032978,Bajo
+517,59,Buenos aires,Internet,28,47,449943.0,8,Desconocido,1,24+ meses,45-60,0.5547875302808174,Medio
+518,72,Rosario,Telefonia,41,31,459151.0,6,Tarjeta,1,24+ meses,60+,0.4167601678845935,Medio
+519,43,Cordoba,Desconocido,36,41,21999.0,12,Transferencia,0,24+ meses,30-45,0.1702352128764968,Bajo
+520,52,Cordoba,Tv,37,46,460738.0,1,Transferencia,0,24+ meses,45-60,0.18614215313900764,Bajo
+521,67,Cordoba,Tv,21,26,305856.0,7,Efectivo,0,12-24 meses,60+,0.5782671207521708,Medio
+522,42,Rosario,Telefonia,8,49,200623.0,6,Transferencia,1,6-12 meses,30-45,0.6600491372112606,Alto
+523,41,Mendoza,Tv,9,5,176244.0,7,Tarjeta,0,6-12 meses,30-45,0.365508108912959,Medio
+524,30,Rosario,Internet,47,20,300866.0,11,Transferencia,1,24+ meses,18-30,0.7418965557242442,Alto
+525,77,Desconocida,Internet,15,41,277769.0,2,Tarjeta,0,12-24 meses,60+,0.23528426842680492,Bajo
+526,75,Buenos aires,Telefonia,46,11,203237.0,6,Efectivo,1,24+ meses,60+,0.6867506867265328,Alto
+527,24,Buenos aires,Desconocido,40,33,474725.0,9,Efectivo,1,24+ meses,18-30,0.3466900359240106,Medio
+528,74,Desconocida,Internet,18,38,11859.0,12,Tarjeta,1,12-24 meses,60+,0.7660372663238235,Alto
+529,53,Rosario,Tv,42,27,439825.0,8,Transferencia,0,24+ meses,45-60,0.2868617240572433,Bajo
+530,62,Desconocida,Internet,20,34,441523.0,2,Efectivo,0,12-24 meses,60+,0.5884794544723377,Medio
+531,37,Rosario,Tv,6,15,115986.0,13,Desconocido,0,0-6 meses,30-45,0.2512075618196496,Bajo
+532,18,Desconocida,Tv,12,32,237654.0,9,Efectivo,0,6-12 meses,,0.28111515699501927,Bajo
+533,25,Cordoba,Telefonia,2,21,288983.0,5,Transferencia,0,0-6 meses,18-30,0.14749180551775365,Bajo
+534,63,Desconocida,Telefonia,7,46,294360.0,1,Desconocido,0,6-12 meses,60+,0.1413417017236035,Bajo
+535,33,Buenos aires,Desconocido,16,5,320097.0,1,Transferencia,0,12-24 meses,30-45,0.34337450031888034,Medio
+536,31,Cordoba,Tv,3,6,482697.0,4,Tarjeta,0,0-6 meses,30-45,0.18203446732353634,Bajo
+537,29,Buenos aires,Internet,45,38,275628.0,4,Desconocido,0,24+ meses,18-30,0.23770892944538916,Bajo
+538,68,Cordoba,Tv,3,22,470291.0,12,Transferencia,0,0-6 meses,60+,0.2152825752524635,Bajo
+539,40,Mendoza,Tv,27,18,54522.0,6,Desconocido,1,24+ meses,30-45,0.5680331128571067,Medio
+540,32,Buenos aires,Internet,43,14,235233.0,11,Transferencia,0,24+ meses,30-45,0.4071701867811186,Medio
+542,51,Cordoba,Tv,38,46,378393.0,10,Transferencia,0,24+ meses,45-60,0.15212888989982828,Bajo
+543,19,Buenos aires,Internet,33,13,12485.0,13,Tarjeta,1,24+ meses,18-30,0.7705278982053279,Alto
+544,49,Rosario,Desconocido,28,31,429671.0,12,Desconocido,0,24+ meses,45-60,0.3699061434982733,Medio
+545,40,Desconocida,Internet,1,30,248056.0,6,Desconocido,0,0-6 meses,30-45,0.32900873937302605,Medio
+546,39,Mendoza,Desconocido,8,3,414983.0,4,Desconocido,0,6-12 meses,30-45,0.11360686474061085,Bajo
+547,68,Buenos aires,Tv,37,30,117701.0,13,Desconocido,0,24+ meses,60+,0.31077068521478246,Medio
+548,42,Cordoba,Internet,32,6,426669.0,5,Tarjeta,0,24+ meses,30-45,0.36487853888146726,Medio
+549,75,Rosario,Tv,43,29,212352.0,7,Desconocido,1,24+ meses,60+,0.38964907670080157,Medio
+550,79,Rosario,Tv,37,8,107638.0,9,Efectivo,1,24+ meses,60+,0.743335040905576,Alto
+551,78,Cordoba,Internet,4,44,189514.0,12,Tarjeta,0,0-6 meses,60+,0.33297009027473334,Medio
+552,39,Desconocida,Tv,30,45,450093.0,13,Efectivo,0,24+ meses,30-45,0.21410827354285072,Bajo
+553,75,Cordoba,Tv,6,43,279370.0,11,Desconocido,0,0-6 meses,60+,0.25269345395787135,Bajo
+555,39,Cordoba,Tv,19,33,289732.0,12,Efectivo,0,12-24 meses,30-45,0.4663061116563177,Medio
+556,66,Rosario,Desconocido,32,17,215048.0,6,Desconocido,0,24+ meses,60+,0.21348801781686105,Bajo
+557,69,Buenos aires,Tv,9,48,167781.0,5,Efectivo,1,6-12 meses,60+,0.7132773919390525,Alto
+558,59,Rosario,Desconocido,12,11,446004.0,9,Desconocido,1,6-12 meses,45-60,0.3615412455044037,Medio
+559,23,Rosario,Tv,11,13,486247.0,1,Desconocido,0,6-12 meses,18-30,0.19785101634760718,Bajo
+560,32,Mendoza,Internet,46,11,42019.0,14,Desconocido,0,24+ meses,30-45,0.18209194018056243,Bajo
+561,71,Rosario,Tv,16,31,443164.0,7,Transferencia,0,12-24 meses,60+,0.3302666275492572,Medio
+562,60,Rosario,Telefonia,1,28,266497.0,9,Efectivo,0,0-6 meses,45-60,0.34611097371818755,Medio
+563,77,Rosario,Tv,45,44,70133.0,8,Tarjeta,0,24+ meses,60+,0.3837441111788927,Medio
+564,54,Buenos aires,Desconocido,21,6,381588.0,4,Tarjeta,0,12-24 meses,45-60,0.26353579571097613,Bajo
+565,50,Desconocida,Tv,30,41,202530.0,9,Tarjeta,1,24+ meses,45-60,0.47724692681521125,Medio
+566,25,Mendoza,Tv,13,16,384747.0,3,Tarjeta,1,12-24 meses,18-30,0.800733548570827,Alto
+567,70,Rosario,Internet,34,4,163598.0,5,Desconocido,0,24+ meses,60+,0.2931943112341113,Bajo
+568,77,Cordoba,Tv,4,35,471709.0,7,Efectivo,0,0-6 meses,60+,0.17810444839475953,Bajo
+569,61,Buenos aires,Internet,28,48,133585.0,10,Efectivo,0,24+ meses,60+,0.35549106518708085,Medio
+570,61,Buenos aires,Internet,38,26,450414.0,14,Transferencia,0,24+ meses,60+,0.2605331376352814,Bajo
+571,22,Cordoba,Telefonia,31,12,250172.0,2,Efectivo,0,24+ meses,18-30,0.2682369450468494,Bajo
+572,56,Desconocida,Internet,27,11,497750.0,9,Efectivo,0,24+ meses,45-60,0.6422941557147988,Alto
+573,21,Rosario,Desconocido,5,37,310539.0,10,Efectivo,0,0-6 meses,18-30,0.14637415380926966,Bajo
+574,23,Rosario,Internet,25,25,422247.0,10,Transferencia,0,24+ meses,18-30,0.34678427013864244,Medio
+575,62,Cordoba,Internet,3,18,473758.0,0,Tarjeta,1,0-6 meses,60+,0.6861665025108991,Alto
+576,49,Mendoza,Internet,33,19,130814.0,3,Efectivo,0,24+ meses,45-60,0.5504326556317638,Medio
+577,69,Cordoba,Telefonia,4,23,435917.0,14,Transferencia,0,0-6 meses,60+,0.09809375769041466,Bajo
+578,47,Cordoba,Desconocido,25,38,379743.0,3,Transferencia,0,24+ meses,45-60,0.371841616970844,Medio
+579,64,Buenos aires,Tv,20,18,30939.0,0,Desconocido,0,12-24 meses,60+,0.228627693851305,Bajo
+580,52,Desconocida,Tv,34,26,447361.0,8,Transferencia,0,24+ meses,45-60,0.2248953208177899,Bajo
+581,72,Buenos aires,Internet,26,6,418540.0,2,Tarjeta,1,24+ meses,60+,0.622326843114639,Alto
+582,57,Mendoza,Tv,5,4,158939.0,4,Efectivo,1,0-6 meses,45-60,0.6087754133246702,Alto
+583,69,Buenos aires,Desconocido,35,44,267347.0,5,Transferencia,0,24+ meses,60+,0.25811177413366115,Bajo
+584,33,Buenos aires,Internet,28,29,414760.0,7,Tarjeta,0,24+ meses,30-45,0.2815612611458017,Bajo
+585,30,Mendoza,Tv,29,34,414115.0,5,Transferencia,0,24+ meses,18-30,0.5903571791303401,Medio
+586,67,Rosario,Tv,9,17,296207.0,2,Transferencia,0,6-12 meses,60+,0.4266161079168165,Medio
+587,77,Rosario,Desconocido,38,43,95880.0,5,Transferencia,1,24+ meses,60+,0.6381655815781461,Alto
+588,59,Mendoza,Internet,6,43,8748.0,0,Transferencia,0,0-6 meses,45-60,0.20786538790157214,Bajo
+589,47,Desconocida,Internet,19,16,241094.0,3,Transferencia,0,12-24 meses,45-60,0.3758056944964614,Medio
+590,36,Cordoba,Internet,44,2,384413.0,5,Tarjeta,0,24+ meses,30-45,0.21260485004950025,Bajo
+591,34,Buenos aires,Internet,11,34,464845.0,6,Efectivo,0,6-12 meses,30-45,0.25476766844412785,Bajo
+592,73,Desconocida,Tv,2,8,347908.0,10,Efectivo,1,0-6 meses,60+,0.6331637953785043,Alto
+593,36,Buenos aires,Internet,47,13,156956.0,12,Efectivo,0,24+ meses,30-45,0.17974605595620893,Bajo
+594,45,Cordoba,Tv,44,42,161255.0,10,Efectivo,1,24+ meses,30-45,0.6055072931446637,Alto
+595,75,Rosario,Tv,44,8,479786.0,9,Tarjeta,0,24+ meses,60+,0.23440368462793476,Bajo
+596,72,Desconocida,Internet,9,30,469462.0,2,Desconocido,1,6-12 meses,60+,0.7884375705859624,Alto
+597,43,Rosario,Telefonia,21,32,375180.0,8,Desconocido,0,12-24 meses,30-45,0.49916423293662165,Medio
+598,54,Rosario,Internet,24,36,155331.0,11,Tarjeta,0,12-24 meses,45-60,0.20195337746432565,Bajo
+599,43,Rosario,Tv,34,47,275628.0,11,Tarjeta,1,24+ meses,30-45,0.5715711164558802,Medio
+600,70,Rosario,Tv,22,30,383669.0,6,Transferencia,0,12-24 meses,60+,0.32507651866749354,Medio
+601,79,Rosario,Desconocido,3,1,431673.0,13,Transferencia,0,0-6 meses,60+,0.11803402176393972,Bajo
+604,29,Cordoba,Desconocido,30,17,133216.0,0,Transferencia,0,24+ meses,18-30,0.3109800290505959,Medio
+605,70,Cordoba,Telefonia,26,20,400319.0,10,Desconocido,1,24+ meses,60+,0.5803452238371821,Medio
+606,18,Rosario,Desconocido,21,24,70901.0,8,Efectivo,0,12-24 meses,,0.3141848478156086,Medio
+607,75,Rosario,Tv,28,22,248386.0,8,Transferencia,0,24+ meses,60+,0.40560800947296677,Medio
+608,75,Cordoba,Tv,26,29,180607.0,6,Efectivo,1,24+ meses,60+,0.8119846809695713,Alto
+609,18,Buenos aires,Tv,33,22,414319.0,9,Desconocido,0,24+ meses,,0.16870193783372078,Bajo
+610,64,Rosario,Internet,21,44,103046.0,2,Transferencia,1,12-24 meses,60+,0.5442429833453464,Medio
+611,51,Rosario,Telefonia,35,9,357156.0,12,Desconocido,1,24+ meses,45-60,0.637611343239616,Alto
+612,49,Desconocida,Tv,34,37,83278.0,14,Desconocido,0,24+ meses,45-60,0.2381693903816673,Bajo
+613,79,Cordoba,Telefonia,41,10,279535.0,4,Desconocido,0,24+ meses,60+,0.17557091911434447,Bajo
+614,71,Cordoba,Internet,47,36,107476.0,14,Transferencia,0,24+ meses,60+,0.12708418123170362,Bajo
+615,65,Rosario,Desconocido,18,37,427117.0,3,Tarjeta,1,12-24 meses,60+,0.5549146854193346,Medio
+616,42,Mendoza,Desconocido,11,28,387865.0,6,Transferencia,1,6-12 meses,30-45,0.7669887959569367,Alto
+617,57,Buenos aires,Internet,23,28,102537.0,13,Desconocido,0,12-24 meses,45-60,0.21385449147313818,Bajo
+618,62,Cordoba,Tv,22,42,348303.0,8,Transferencia,0,12-24 meses,60+,0.40073120988767463,Medio
+619,70,Rosario,Internet,17,43,466130.0,11,Desconocido,0,12-24 meses,60+,0.46780241952600676,Medio
+620,18,Rosario,Internet,5,21,398184.0,1,Tarjeta,1,0-6 meses,,0.6730980413228899,Alto
+621,33,Rosario,Tv,44,24,186429.0,12,Efectivo,0,24+ meses,30-45,0.2135691781450028,Bajo
+622,78,Desconocida,Tv,11,42,222980.0,7,Tarjeta,0,6-12 meses,60+,0.3369955093740217,Medio
+623,56,Mendoza,Telefonia,30,40,436653.0,14,Tarjeta,0,24+ meses,45-60,0.16568629299756638,Bajo
+624,22,Buenos aires,Internet,15,2,302647.0,8,Efectivo,1,12-24 meses,18-30,0.28721343532846044,Bajo
+625,39,Cordoba,Tv,27,8,494498.0,9,Transferencia,0,24+ meses,30-45,0.26105147206435536,Bajo
+626,46,Desconocida,Internet,35,48,491675.0,13,Efectivo,0,24+ meses,45-60,0.3491594516577724,Medio
+627,72,Desconocida,Internet,33,27,80403.0,9,Transferencia,0,24+ meses,60+,0.17421979969518528,Bajo
+628,20,Rosario,Internet,20,22,439474.0,8,Transferencia,0,12-24 meses,18-30,0.2781581619753575,Bajo
+629,29,Cordoba,Internet,16,37,431940.0,13,Desconocido,1,12-24 meses,18-30,0.26570914291581693,Bajo
+630,43,Cordoba,Telefonia,34,27,69286.0,9,Desconocido,1,24+ meses,30-45,0.5120190639795819,Medio
+631,33,Rosario,Internet,2,29,341986.0,13,Efectivo,0,0-6 meses,30-45,0.12933127331772143,Bajo
+632,68,Rosario,Desconocido,35,3,109927.0,6,Tarjeta,0,24+ meses,60+,0.11977595667896652,Bajo
+633,54,Cordoba,Tv,40,44,282052.0,14,Efectivo,0,24+ meses,45-60,0.23500419735140285,Bajo
+634,39,Mendoza,Telefonia,28,13,490833.0,8,Transferencia,0,24+ meses,30-45,0.7150760632222094,Alto
+635,74,Buenos aires,Telefonia,47,45,448842.0,8,Desconocido,1,24+ meses,60+,0.39157565743047945,Medio
+636,46,Desconocida,Desconocido,39,10,304372.0,13,Efectivo,0,24+ meses,45-60,0.10947807075042365,Bajo
+637,31,Desconocida,Desconocido,6,36,275628.0,2,Efectivo,0,0-6 meses,30-45,0.23088963702763668,Bajo
+638,45,Mendoza,Tv,9,9,182826.0,3,Desconocido,0,6-12 meses,30-45,0.3109987771564982,Medio
+639,22,Cordoba,Tv,20,27,295446.0,1,Desconocido,0,12-24 meses,18-30,0.25854322768443366,Bajo
+640,64,Desconocida,Desconocido,1,34,327959.0,9,Desconocido,0,0-6 meses,60+,0.33770134166266635,Medio
+641,66,Cordoba,Internet,8,1,257156.0,2,Transferencia,0,6-12 meses,60+,0.24933575153147683,Bajo
+642,47,Buenos aires,Telefonia,23,32,482964.0,10,Desconocido,0,12-24 meses,45-60,0.4770992085998122,Medio
+643,63,Buenos aires,Tv,3,25,330488.0,10,Tarjeta,1,0-6 meses,60+,0.5811343936045764,Medio
+644,79,Desconocida,Tv,4,29,433834.0,4,Efectivo,0,0-6 meses,60+,0.42848968314295044,Medio
+645,69,Rosario,Tv,25,7,378747.0,4,Desconocido,0,24+ meses,60+,0.34600157157713013,Medio
+646,22,Desconocida,Desconocido,47,49,474450.0,5,Desconocido,1,24+ meses,18-30,0.7149158319271742,Alto
+648,33,Desconocida,Tv,15,20,253724.0,6,Transferencia,1,12-24 meses,30-45,0.6213537816868471,Alto
+649,43,Cordoba,Tv,21,20,206202.0,6,Efectivo,0,12-24 meses,30-45,0.5337897986798683,Medio
+650,43,Rosario,Tv,35,30,30525.0,0,Tarjeta,0,24+ meses,30-45,0.21164693783921687,Bajo
+651,65,Buenos aires,Internet,46,35,84818.0,13,Efectivo,0,24+ meses,60+,0.14722152188045123,Bajo
+652,38,Desconocida,Internet,14,35,119589.0,1,Desconocido,0,12-24 meses,30-45,0.25736676836253997,Bajo
+653,56,Cordoba,Tv,36,49,150406.0,11,Tarjeta,0,24+ meses,45-60,0.3608498163200753,Medio
+654,53,Rosario,Tv,12,39,99715.0,8,Tarjeta,1,6-12 meses,45-60,0.5486592221935942,Medio
+655,50,Rosario,Tv,17,27,198839.0,9,Tarjeta,0,12-24 meses,45-60,0.42022219475381795,Medio
+656,79,Buenos aires,Internet,39,26,273788.0,1,Tarjeta,0,24+ meses,60+,0.22972656702525515,Bajo
+657,47,Mendoza,Internet,9,14,368298.0,5,Efectivo,0,6-12 meses,45-60,0.5179304109653793,Medio
+658,54,Desconocida,Telefonia,35,17,431149.0,10,Transferencia,0,24+ meses,45-60,0.20066622695082997,Bajo
+659,40,Cordoba,Desconocido,13,18,262438.0,10,Transferencia,0,12-24 meses,30-45,0.2068789103950477,Bajo
+660,75,Rosario,Desconocido,15,45,310613.0,0,Desconocido,0,12-24 meses,60+,0.3132394885876042,Medio
+661,27,Rosario,Tv,18,29,431903.0,2,Transferencia,1,12-24 meses,18-30,0.6269763554042981,Alto
+662,71,Rosario,Internet,33,20,373753.0,1,Transferencia,1,24+ meses,60+,0.3849238719959868,Medio
+663,22,Rosario,Telefonia,6,27,450872.0,2,Transferencia,0,0-6 meses,18-30,0.09899309623777171,Bajo
+664,53,Mendoza,Telefonia,27,18,415591.0,4,Transferencia,0,24+ meses,45-60,0.6603820905282365,Alto
+665,51,Mendoza,Tv,23,4,275628.0,10,Desconocido,1,12-24 meses,45-60,0.734975054476934,Alto
+666,69,Cordoba,Tv,27,1,363606.0,9,Efectivo,1,24+ meses,60+,0.6930267613351231,Alto
+667,48,Rosario,Telefonia,34,1,172679.0,5,Tarjeta,0,24+ meses,45-60,0.27718026872848617,Bajo
+668,27,Cordoba,Tv,46,26,88178.0,8,Transferencia,1,24+ meses,18-30,0.35693716962194116,Medio
+669,75,Rosario,Internet,38,45,422209.0,11,Efectivo,0,24+ meses,60+,0.27061631031385314,Bajo
+670,36,Desconocida,Internet,14,20,180458.0,10,Transferencia,1,12-24 meses,30-45,0.5688318020596527,Medio
+671,75,Desconocida,Internet,36,23,259466.0,14,Transferencia,0,24+ meses,60+,0.21060289305265212,Bajo
+672,49,Cordoba,Telefonia,8,10,444503.0,14,Tarjeta,0,6-12 meses,45-60,0.14823730823867365,Bajo
+673,18,Desconocida,Telefonia,35,11,91724.0,9,Tarjeta,1,24+ meses,,0.7753212931862054,Alto
+674,73,Cordoba,Internet,19,41,234204.0,11,Tarjeta,0,12-24 meses,60+,0.266820591052069,Bajo
+675,22,Desconocida,Tv,30,41,491524.0,11,Transferencia,0,24+ meses,18-30,0.13389001208545648,Bajo
+677,21,Desconocida,Desconocido,20,1,394458.0,3,Transferencia,1,12-24 meses,18-30,0.21716720334127707,Bajo
+678,33,Cordoba,Telefonia,25,17,81312.0,6,Tarjeta,1,24+ meses,30-45,0.8431125023411397,Alto
+679,41,Rosario,Tv,40,22,496587.0,5,Desconocido,1,24+ meses,30-45,0.5611350225911874,Medio
+680,33,Cordoba,Desconocido,24,34,342468.0,1,Efectivo,0,12-24 meses,30-45,0.25561978397162166,Bajo
+681,72,Rosario,Tv,14,45,76196.0,9,Desconocido,1,12-24 meses,60+,0.6197802261980283,Alto
+682,19,Mendoza,Internet,26,41,75014.0,10,Transferencia,0,24+ meses,18-30,0.6807973620408222,Alto
+683,66,Cordoba,Tv,38,29,406426.0,10,Transferencia,0,24+ meses,60+,0.14116878212153178,Bajo
+684,45,Mendoza,Internet,23,4,146994.0,10,Desconocido,1,12-24 meses,30-45,0.677682151949343,Alto
+685,49,Cordoba,Desconocido,22,5,434505.0,14,Transferencia,0,12-24 meses,45-60,0.1573089290285308,Bajo
+686,44,Cordoba,Telefonia,19,11,38340.0,14,Efectivo,0,12-24 meses,30-45,0.31373295795532646,Medio
+687,37,Buenos aires,Tv,46,21,306994.0,7,Transferencia,0,24+ meses,30-45,0.18254594605839622,Bajo
+688,41,Desconocida,Internet,3,35,455200.0,6,Efectivo,0,0-6 meses,30-45,0.43514701857481164,Medio
+689,29,Cordoba,Telefonia,42,12,118711.0,14,Desconocido,1,24+ meses,18-30,0.743160731401931,Alto
+690,67,Mendoza,Tv,19,26,220250.0,14,Desconocido,0,12-24 meses,60+,0.2808591977627538,Bajo
+691,52,Rosario,Internet,9,19,16094.0,6,Transferencia,1,6-12 meses,45-60,0.656118090620618,Alto
+692,77,Cordoba,Desconocido,28,45,355103.0,13,Efectivo,0,24+ meses,60+,0.06089346542489436,Bajo
+693,50,Desconocida,Tv,20,7,431634.0,14,Transferencia,0,12-24 meses,45-60,0.3729635974555468,Medio
+694,50,Cordoba,Tv,45,47,275628.0,7,Tarjeta,0,24+ meses,45-60,0.38677469646797596,Medio
+695,78,Rosario,Internet,7,7,116585.0,11,Tarjeta,1,6-12 meses,60+,0.3493753354785216,Medio
+696,68,Desconocida,Tv,14,26,470590.0,11,Tarjeta,0,12-24 meses,60+,0.49394486225860523,Medio
+697,60,Desconocida,Internet,9,40,389708.0,12,Tarjeta,1,6-12 meses,45-60,0.7670922854958281,Alto
+698,54,Mendoza,Tv,19,5,73798.0,13,Transferencia,0,12-24 meses,45-60,0.7009816765413274,Alto
+699,29,Mendoza,Internet,47,21,383170.0,10,Tarjeta,0,24+ meses,18-30,0.21354871903525996,Bajo
+700,20,Cordoba,Desconocido,14,14,206604.0,0,Efectivo,0,12-24 meses,18-30,0.4554925647537116,Medio
+701,18,Cordoba,Telefonia,38,4,115130.0,14,Desconocido,1,24+ meses,,0.8560656514941001,Alto
+702,50,Rosario,Internet,36,23,289308.0,12,Desconocido,1,24+ meses,45-60,0.6121057806654308,Alto
+703,57,Rosario,Tv,40,42,171667.0,0,Tarjeta,0,24+ meses,45-60,0.2786870977094351,Bajo
+704,27,Buenos aires,Tv,17,20,35257.0,7,Tarjeta,0,12-24 meses,18-30,0.18880657790339544,Bajo
+705,60,Cordoba,Internet,30,15,412427.0,3,Tarjeta,0,24+ meses,45-60,0.5147060397178548,Medio
+706,61,Cordoba,Tv,9,45,363133.0,4,Transferencia,1,6-12 meses,60+,0.6083427390998234,Alto
+707,46,Mendoza,Tv,33,29,403448.0,7,Desconocido,0,24+ meses,45-60,0.5812265076366838,Medio
+708,30,Rosario,Tv,25,8,465969.0,4,Tarjeta,1,24+ meses,18-30,0.427472286525501,Medio
+709,29,Mendoza,Internet,14,41,57691.0,9,Efectivo,1,12-24 meses,18-30,0.6534870825366249,Alto
+710,48,Cordoba,Internet,11,48,487981.0,3,Tarjeta,0,6-12 meses,45-60,0.523556629516579,Medio
+711,63,Rosario,Internet,35,19,84768.0,11,Desconocido,1,24+ meses,60+,0.5877091520634917,Medio
+712,19,Mendoza,Desconocido,41,48,423829.0,5,Tarjeta,0,24+ meses,18-30,0.16765110734118527,Bajo
+713,78,Buenos aires,Desconocido,14,39,19026.0,12,Desconocido,0,12-24 meses,60+,0.12389125598023538,Bajo
+714,68,Cordoba,Internet,30,46,451751.0,14,Tarjeta,0,24+ meses,60+,0.14358847256604507,Bajo
+715,67,Rosario,Internet,41,28,230162.0,11,Efectivo,0,24+ meses,60+,0.21713519550198818,Bajo
+716,52,Rosario,Tv,4,46,298052.0,4,Tarjeta,1,0-6 meses,45-60,0.6358111290794856,Alto
+717,40,Rosario,Tv,4,27,450329.0,13,Efectivo,0,0-6 meses,30-45,0.11792811216296376,Bajo
+718,34,Desconocida,Telefonia,28,4,24610.0,6,Efectivo,0,24+ meses,30-45,0.20769611362455048,Bajo
+719,43,Buenos aires,Tv,8,15,182718.0,13,Tarjeta,0,6-12 meses,30-45,0.1783431163477783,Bajo
+720,25,Cordoba,Desconocido,2,35,330329.0,9,Efectivo,0,0-6 meses,18-30,0.08939263134776632,Bajo
+721,46,Rosario,Desconocido,41,37,339711.0,6,Transferencia,0,24+ meses,45-60,0.25920940172947743,Bajo
+722,43,Buenos aires,Tv,46,1,183646.0,12,Tarjeta,0,24+ meses,30-45,0.25323448569674684,Bajo
+723,27,Rosario,Desconocido,22,3,227123.0,3,Tarjeta,0,12-24 meses,18-30,0.23041906040702095,Bajo
+724,43,Buenos aires,Internet,41,47,303326.0,11,Efectivo,1,24+ meses,30-45,0.21337382436284147,Bajo
+725,79,Cordoba,Internet,16,24,383280.0,12,Efectivo,1,12-24 meses,60+,0.18182438402050086,Bajo
+726,51,Cordoba,Tv,29,27,398786.0,4,Tarjeta,0,24+ meses,45-60,0.34750189079157523,Medio
+728,58,Desconocida,Tv,12,36,24288.0,2,Efectivo,0,6-12 meses,45-60,0.28453213913745434,Bajo
+729,24,Buenos aires,Tv,35,34,345968.0,14,Efectivo,0,24+ meses,18-30,0.19651810184054166,Bajo
+730,21,Rosario,Internet,11,29,428093.0,3,Desconocido,0,6-12 meses,18-30,0.2351016791707602,Bajo
+731,75,Rosario,Tv,46,24,89425.0,14,Transferencia,0,24+ meses,60+,0.37936228361708,Medio
+732,70,Rosario,Tv,21,24,5917.0,13,Transferencia,0,12-24 meses,60+,0.2917644959375805,Bajo
+733,67,Rosario,Internet,21,42,342746.0,3,Tarjeta,1,12-24 meses,60+,0.6750052391890846,Alto
+734,62,Mendoza,Tv,5,4,493256.0,2,Transferencia,0,0-6 meses,60+,0.5323930685019422,Medio
+735,28,Cordoba,Telefonia,20,3,331719.0,12,Tarjeta,1,12-24 meses,18-30,0.6479248673392539,Alto
+736,46,Cordoba,Tv,37,34,339662.0,9,Desconocido,0,24+ meses,45-60,0.3317789256799577,Medio
+737,73,Cordoba,Internet,3,49,258187.0,4,Transferencia,1,0-6 meses,60+,0.23934074669793293,Bajo
+738,53,Cordoba,Tv,44,23,44104.0,4,Efectivo,0,24+ meses,45-60,0.6191385300354125,Alto
+739,42,Cordoba,Telefonia,33,23,154134.0,10,Desconocido,0,24+ meses,30-45,0.29822150727994684,Bajo
+740,38,Desconocida,Internet,9,45,284143.0,6,Tarjeta,0,6-12 meses,30-45,0.5125708956604946,Medio
+741,78,Cordoba,Internet,9,5,267091.0,3,Desconocido,0,6-12 meses,60+,0.2521328189532015,Bajo
+742,74,Rosario,Tv,4,31,460061.0,12,Tarjeta,0,0-6 meses,60+,0.33637612905547415,Medio
+743,53,Rosario,Internet,35,41,408157.0,3,Desconocido,1,24+ meses,45-60,0.7049793334678075,Alto
+744,27,Cordoba,Tv,17,6,66169.0,8,Tarjeta,0,12-24 meses,18-30,0.2819018848896357,Bajo
+745,54,Cordoba,Telefonia,34,37,159542.0,5,Transferencia,1,24+ meses,45-60,0.4036289947410607,Medio
+746,26,Cordoba,Internet,24,10,134744.0,14,Efectivo,0,12-24 meses,18-30,0.16066170739759297,Bajo
+747,41,Mendoza,Tv,32,40,377828.0,3,Tarjeta,1,24+ meses,30-45,0.867627404788127,Alto
+748,52,Buenos aires,Internet,1,7,64821.0,1,Desconocido,0,0-6 meses,45-60,0.16840093850504104,Bajo
+749,66,Rosario,Tv,8,39,222741.0,5,Tarjeta,0,6-12 meses,60+,0.46167818923543924,Medio
+750,52,Cordoba,Tv,45,38,254265.0,1,Tarjeta,1,24+ meses,45-60,0.6004566650249614,Alto
+751,65,Buenos aires,Internet,23,21,442651.0,4,Tarjeta,0,12-24 meses,60+,0.5612243077554855,Medio
+752,53,Cordoba,Telefonia,47,20,402745.0,5,Desconocido,0,24+ meses,45-60,0.196834138379765,Bajo
+753,35,Buenos aires,Internet,40,3,219127.0,3,Efectivo,0,24+ meses,30-45,0.21589317519334913,Bajo
+754,66,Rosario,Tv,12,22,279336.0,13,Transferencia,0,6-12 meses,60+,0.3015400616491823,Medio
+755,56,Cordoba,Internet,12,47,341246.0,12,Efectivo,0,6-12 meses,45-60,0.181012262169049,Bajo
+756,49,Mendoza,Tv,46,4,208834.0,2,Tarjeta,1,24+ meses,45-60,0.7860196783607616,Alto
+757,41,Desconocida,Internet,47,28,239538.0,6,Desconocido,0,24+ meses,30-45,0.28494723736174626,Bajo
+758,40,Cordoba,Desconocido,15,12,382038.0,1,Efectivo,0,12-24 meses,30-45,0.28382943104169966,Bajo
+759,79,Cordoba,Tv,41,38,91795.0,12,Tarjeta,0,24+ meses,60+,0.21526864091032105,Bajo
+760,49,Rosario,Telefonia,19,36,170159.0,10,Transferencia,0,12-24 meses,45-60,0.3265786441823132,Medio
+761,54,Cordoba,Internet,26,47,333821.0,13,Transferencia,0,24+ meses,45-60,0.2572672917880686,Bajo
+762,29,Rosario,Telefonia,29,41,140699.0,5,Transferencia,1,24+ meses,18-30,0.7201754320682021,Alto
+763,66,Buenos aires,Tv,22,5,454757.0,12,Tarjeta,0,12-24 meses,60+,0.16518075570603738,Bajo
+764,72,Desconocida,Internet,40,13,248877.0,3,Desconocido,1,24+ meses,60+,0.3024441068014669,Medio
+765,30,Rosario,Desconocido,21,23,204298.0,5,Efectivo,0,12-24 meses,18-30,0.1813638224111742,Bajo
+766,40,Rosario,Tv,38,30,401471.0,3,Transferencia,0,24+ meses,30-45,0.35848185228889756,Medio
+767,42,Cordoba,Tv,20,37,193505.0,3,Tarjeta,0,12-24 meses,30-45,0.5739411491510759,Medio
+768,52,Mendoza,Internet,29,25,141285.0,14,Tarjeta,0,24+ meses,45-60,0.23301644542536193,Bajo
+769,58,Cordoba,Desconocido,4,48,107412.0,3,Efectivo,0,0-6 meses,45-60,0.3584879033671357,Medio
+770,47,Buenos aires,Internet,7,27,24404.0,8,Transferencia,0,6-12 meses,45-60,0.3499564219043584,Medio
+771,34,Cordoba,Tv,28,14,121545.0,6,Tarjeta,1,24+ meses,30-45,0.5012851394196275,Medio
+772,66,Desconocida,Telefonia,28,48,423596.0,2,Efectivo,0,24+ meses,60+,0.18580557478899018,Bajo
+773,79,Cordoba,Tv,4,47,227128.0,2,Desconocido,1,0-6 meses,60+,0.25443289802395586,Bajo
+774,37,Cordoba,Tv,22,36,155245.0,5,Desconocido,0,12-24 meses,30-45,0.32781060965913494,Medio
+775,65,Buenos aires,Telefonia,12,39,189099.0,5,Desconocido,1,6-12 meses,60+,0.5643588144496355,Medio
+776,42,Cordoba,Tv,45,16,291133.0,3,Transferencia,1,24+ meses,30-45,0.674542287868218,Alto
+777,39,Cordoba,Desconocido,3,22,266657.0,14,Efectivo,0,0-6 meses,30-45,0.12827750250296763,Bajo
+778,30,Mendoza,Tv,22,21,375250.0,14,Efectivo,1,12-24 meses,18-30,0.7490505868188935,Alto
+779,76,Rosario,Internet,44,21,291663.0,8,Tarjeta,0,24+ meses,60+,0.2875923141773065,Bajo
+780,36,Cordoba,Internet,2,8,261875.0,3,Tarjeta,1,0-6 meses,30-45,0.5718832651104223,Medio
+781,66,Rosario,Telefonia,24,49,289583.0,8,Tarjeta,0,12-24 meses,60+,0.32639418650306107,Medio
+782,53,Cordoba,Internet,34,16,385714.0,3,Efectivo,0,24+ meses,45-60,0.45978500605301265,Medio
+783,29,Mendoza,Desconocido,27,31,475165.0,1,Tarjeta,1,24+ meses,18-30,0.7414444544143578,Alto
+784,78,Rosario,Telefonia,41,42,19995.0,1,Efectivo,0,24+ meses,60+,0.11752603000447827,Bajo
+785,58,Rosario,Internet,1,10,28559.0,4,Efectivo,0,0-6 meses,45-60,0.29477407303894543,Bajo
+786,36,Buenos aires,Tv,8,32,356193.0,3,Desconocido,1,6-12 meses,30-45,0.25155598866089773,Bajo
+787,29,Rosario,Desconocido,23,34,403237.0,6,Tarjeta,0,12-24 meses,18-30,0.19105917914658113,Bajo
+788,26,Cordoba,Tv,38,9,103000.0,13,Desconocido,0,24+ meses,18-30,0.22321737214196516,Bajo
+789,24,Mendoza,Tv,6,17,157191.0,10,Transferencia,0,0-6 meses,18-30,0.20305517988081004,Bajo
+790,45,Rosario,Desconocido,22,11,449755.0,4,Transferencia,0,12-24 meses,30-45,0.3570540636246375,Medio
+791,31,Cordoba,Internet,25,32,493051.0,5,Transferencia,1,24+ meses,30-45,0.7767822082972637,Alto
+792,48,Cordoba,Tv,18,10,306494.0,9,Efectivo,0,12-24 meses,45-60,0.5096841305947355,Medio
+793,69,Cordoba,Internet,17,22,444439.0,3,Efectivo,0,12-24 meses,60+,0.2481726501024444,Bajo
+794,36,Rosario,Internet,12,17,30517.0,12,Efectivo,0,6-12 meses,30-45,0.11854003604352611,Bajo
+795,75,Rosario,Telefonia,6,4,476869.0,11,Tarjeta,1,0-6 meses,60+,0.8052727502335825,Alto
+796,64,Mendoza,Internet,26,48,420466.0,1,Desconocido,0,24+ meses,60+,0.5243173381088712,Medio
+797,33,Buenos aires,Internet,27,47,220558.0,12,Efectivo,0,24+ meses,30-45,0.22596163392679017,Bajo
+798,70,Rosario,Telefonia,8,25,481111.0,9,Desconocido,1,6-12 meses,60+,0.7782795150331105,Alto
+799,22,Desconocida,Desconocido,19,21,356276.0,8,Desconocido,0,12-24 meses,18-30,0.11626765644513769,Bajo
+800,52,Rosario,Internet,42,37,489282.0,9,Desconocido,0,24+ meses,45-60,0.5048639964934056,Medio
+801,29,Rosario,Internet,1,38,465014.0,14,Tarjeta,0,0-6 meses,18-30,0.47918256670230364,Medio
+802,42,Cordoba,Tv,29,49,452415.0,6,Tarjeta,0,24+ meses,30-45,0.2994025691688557,Bajo
+803,69,Desconocida,Internet,45,1,326690.0,3,Transferencia,0,24+ meses,60+,0.1787794673177396,Bajo
+804,76,Desconocida,Internet,35,25,110686.0,2,Transferencia,0,24+ meses,60+,0.148550520602397,Bajo
+805,38,Rosario,Tv,40,36,93151.0,9,Desconocido,1,24+ meses,30-45,0.6269505515323628,Alto
+806,53,Rosario,Internet,14,17,270471.0,13,Transferencia,0,12-24 meses,45-60,0.305526144683014,Medio
+807,70,Cordoba,Tv,35,41,125318.0,14,Desconocido,1,24+ meses,60+,0.3569796517601298,Medio
+808,40,Buenos aires,Internet,45,24,427984.0,2,Tarjeta,0,24+ meses,30-45,0.22233725399313542,Bajo
+809,33,Cordoba,Telefonia,20,2,200490.0,8,Tarjeta,1,12-24 meses,30-45,0.6214789009487603,Alto
+810,74,Mendoza,Tv,13,40,492602.0,4,Tarjeta,1,12-24 meses,60+,0.8435776301721155,Alto
+811,56,Desconocida,Desconocido,38,15,178860.0,12,Efectivo,0,24+ meses,45-60,0.1603463623925229,Bajo
+812,62,Mendoza,Tv,46,32,120945.0,14,Desconocido,0,24+ meses,60+,0.45376021175247183,Medio
+813,70,Rosario,Telefonia,8,39,218456.0,2,Tarjeta,0,6-12 meses,60+,0.2579238382203322,Bajo
+814,59,Rosario,Desconocido,43,6,275628.0,14,Desconocido,1,24+ meses,45-60,0.27460730552495194,Bajo
+815,75,Mendoza,Internet,20,1,57446.0,4,Transferencia,1,12-24 meses,60+,0.7530849850567091,Alto
+816,56,Rosario,Tv,33,47,413376.0,1,Transferencia,0,24+ meses,45-60,0.21124502406701548,Bajo
+818,48,Rosario,Telefonia,39,39,432214.0,3,Desconocido,0,24+ meses,45-60,0.4177883390147155,Medio
+819,75,Rosario,Desconocido,21,17,425446.0,9,Tarjeta,1,12-24 meses,60+,0.41131047784245617,Medio
+820,22,Cordoba,Desconocido,42,34,145148.0,1,Transferencia,0,24+ meses,18-30,0.471174054455761,Medio
+821,52,Rosario,Tv,43,41,74341.0,1,Tarjeta,0,24+ meses,45-60,0.3539547423208775,Medio
+822,40,Cordoba,Internet,41,29,36085.0,11,Desconocido,0,24+ meses,30-45,0.1843563196009005,Bajo
+823,46,Buenos aires,Tv,9,9,322715.0,7,Transferencia,0,6-12 meses,45-60,0.3569288807581739,Medio
+824,60,Cordoba,Desconocido,24,13,412931.0,0,Efectivo,1,12-24 meses,45-60,0.347743684710264,Medio
+825,28,Cordoba,Internet,37,6,395452.0,13,Transferencia,0,24+ meses,18-30,0.2515231695925012,Bajo
+826,35,Cordoba,Telefonia,41,6,10750.0,6,Efectivo,0,24+ meses,30-45,0.3383389763456983,Medio
+827,64,Buenos aires,Tv,17,20,381075.0,4,Tarjeta,0,12-24 meses,60+,0.3233128779666665,Medio
+828,29,Buenos aires,Desconocido,24,3,345912.0,14,Tarjeta,0,12-24 meses,18-30,0.31424100956408924,Medio
+829,26,Buenos aires,Internet,21,17,40903.0,10,Desconocido,0,12-24 meses,18-30,0.3883827955518006,Medio
+830,27,Buenos aires,Desconocido,39,49,208561.0,7,Efectivo,1,24+ meses,18-30,0.5050906169887561,Medio
+831,75,Buenos aires,Internet,41,12,430309.0,0,Tarjeta,1,24+ meses,60+,0.5648651680672192,Medio
+832,61,Cordoba,Tv,39,48,96036.0,10,Efectivo,0,24+ meses,60+,0.7480072588869132,Alto
+833,34,Rosario,Internet,13,47,92954.0,6,Tarjeta,0,12-24 meses,30-45,0.28737754060778364,Bajo
+834,78,Cordoba,Tv,11,45,275628.0,4,Transferencia,1,6-12 meses,60+,0.7397902832030735,Alto
+835,55,Buenos aires,Tv,46,1,446441.0,3,Tarjeta,0,24+ meses,45-60,0.31581860922468813,Medio
+836,24,Desconocida,Tv,19,17,486201.0,6,Desconocido,0,12-24 meses,18-30,0.17241362941129762,Bajo
+837,63,Rosario,Internet,11,3,350158.0,9,Transferencia,1,6-12 meses,60+,0.7011505394043617,Alto
+838,30,Rosario,Tv,13,26,433395.0,14,Desconocido,1,12-24 meses,18-30,0.6926732103565293,Alto
+839,57,Cordoba,Desconocido,46,15,122305.0,1,Transferencia,1,24+ meses,45-60,0.6651919750913371,Alto
+841,26,Mendoza,Internet,1,32,490651.0,14,Desconocido,1,0-6 meses,18-30,0.7279327746905147,Alto
+842,67,Mendoza,Internet,40,32,275628.0,0,Tarjeta,0,24+ meses,60+,0.13377018347844175,Bajo
+843,44,Rosario,Internet,44,4,37101.0,0,Efectivo,0,24+ meses,30-45,0.190414920551385,Bajo
+844,75,Rosario,Internet,19,18,7775.0,10,Tarjeta,0,12-24 meses,60+,0.43242182988927036,Medio
+845,19,Rosario,Internet,12,49,116497.0,11,Transferencia,0,6-12 meses,18-30,0.21763375469873236,Bajo
+846,22,Cordoba,Telefonia,8,19,495399.0,0,Transferencia,0,6-12 meses,18-30,0.2903778023778024,Bajo
+847,46,Mendoza,Desconocido,8,43,50619.0,14,Tarjeta,0,6-12 meses,45-60,0.19412784914689812,Bajo
+848,54,Rosario,Tv,45,35,444054.0,11,Tarjeta,0,24+ meses,45-60,0.19362853873084432,Bajo
+849,55,Cordoba,Internet,12,40,257388.0,4,Efectivo,0,6-12 meses,45-60,0.32491673866429693,Medio
+850,36,Mendoza,Telefonia,33,14,417755.0,9,Tarjeta,0,24+ meses,30-45,0.2728791661812932,Bajo
+851,25,Rosario,Desconocido,45,33,238346.0,6,Desconocido,0,24+ meses,18-30,0.21483578194057787,Bajo
+852,65,Rosario,Tv,26,14,324268.0,1,Desconocido,0,24+ meses,60+,0.24148761179331618,Bajo
+853,62,Buenos aires,Internet,39,34,70149.0,9,Tarjeta,1,24+ meses,60+,0.4215052164017127,Medio
+854,18,Cordoba,Internet,28,4,31616.0,7,Desconocido,0,24+ meses,,0.32514086930928704,Medio
+855,39,Buenos aires,Internet,5,24,477871.0,3,Tarjeta,0,0-6 meses,30-45,0.3260775836921957,Medio
+856,69,Cordoba,Internet,8,29,226767.0,11,Efectivo,1,6-12 meses,60+,0.4683869886706771,Medio
+857,34,Buenos aires,Desconocido,25,19,190639.0,2,Desconocido,0,24+ meses,30-45,0.3444670075181975,Medio
+858,24,Desconocida,Tv,27,6,173171.0,9,Desconocido,0,24+ meses,18-30,0.15955063841218398,Bajo
+859,42,Buenos aires,Internet,46,33,211903.0,10,Tarjeta,0,24+ meses,30-45,0.21850498997752296,Bajo
+860,62,Desconocida,Desconocido,23,49,236318.0,7,Desconocido,0,12-24 meses,60+,0.2086214028059004,Bajo
+861,21,Mendoza,Desconocido,30,40,328943.0,1,Transferencia,1,24+ meses,18-30,0.725483736418647,Alto
+862,53,Rosario,Tv,45,19,357365.0,10,Efectivo,0,24+ meses,45-60,0.42173923474684705,Medio
+863,23,Rosario,Internet,47,1,382023.0,10,Efectivo,0,24+ meses,18-30,0.3981225587398538,Medio
+864,77,Desconocida,Tv,23,5,292623.0,12,Desconocido,0,12-24 meses,60+,0.40107235844429007,Medio
+865,48,Cordoba,Internet,47,27,444388.0,2,Desconocido,0,24+ meses,45-60,0.3447051017861311,Medio
+866,36,Buenos aires,Desconocido,20,16,366309.0,11,Transferencia,0,12-24 meses,30-45,0.3022734764997396,Medio
+867,78,Desconocida,Internet,18,6,60863.0,2,Transferencia,0,12-24 meses,60+,0.18831955006118295,Bajo
+868,61,Cordoba,Tv,18,40,178115.0,9,Desconocido,0,12-24 meses,60+,0.4927709475443268,Medio
+869,71,Rosario,Tv,2,13,349713.0,10,Desconocido,0,0-6 meses,60+,0.39812879016375946,Medio
+870,56,Rosario,Desconocido,4,48,413624.0,0,Transferencia,0,0-6 meses,45-60,0.2030881217735267,Bajo
+871,44,Buenos aires,Internet,30,35,258347.0,5,Tarjeta,0,24+ meses,30-45,0.2984767579699297,Bajo
+872,27,Cordoba,Internet,33,19,194052.0,1,Transferencia,0,24+ meses,18-30,0.4102984534048792,Medio
+874,36,Mendoza,Tv,18,16,283495.0,1,Efectivo,0,12-24 meses,30-45,0.5174667333853477,Medio
+875,56,Desconocida,Tv,37,43,140203.0,11,Efectivo,0,24+ meses,45-60,0.5368573987044146,Medio
+876,79,Rosario,Internet,19,10,252908.0,5,Transferencia,0,12-24 meses,60+,0.3823494224244133,Medio
+877,20,Cordoba,Tv,47,25,311969.0,13,Tarjeta,0,24+ meses,18-30,0.3922888473296112,Medio
+878,62,Buenos aires,Tv,28,20,278493.0,3,Transferencia,1,24+ meses,60+,0.6358216317415721,Alto
+879,30,Cordoba,Telefonia,40,31,197003.0,5,Transferencia,0,24+ meses,18-30,0.4894185666955908,Medio
+880,67,Cordoba,Internet,20,4,311398.0,11,Tarjeta,1,12-24 meses,60+,0.39072730565835107,Medio
+881,45,Desconocida,Internet,33,44,305369.0,8,Transferencia,0,24+ meses,30-45,0.4266717619968377,Medio
+882,79,Cordoba,Internet,12,23,279597.0,12,Efectivo,1,6-12 meses,60+,0.18034196430843,Bajo
+883,75,Desconocida,Telefonia,15,2,154886.0,9,Desconocido,0,12-24 meses,60+,0.19407572319647884,Bajo
+884,37,Buenos aires,Telefonia,41,22,154335.0,11,Desconocido,1,24+ meses,30-45,0.3574106375904572,Medio
+885,45,Desconocida,Internet,39,37,275628.0,9,Transferencia,0,24+ meses,30-45,0.2740557117814659,Bajo
+886,25,Cordoba,Desconocido,2,8,20735.0,7,Tarjeta,0,0-6 meses,18-30,0.19994407908909184,Bajo
+887,78,Cordoba,Tv,29,7,414046.0,0,Tarjeta,0,24+ meses,60+,0.30994345207559465,Medio
+888,58,Rosario,Internet,41,14,315037.0,12,Efectivo,0,24+ meses,45-60,0.2691911476121961,Bajo
+889,56,Cordoba,Tv,10,3,180745.0,7,Tarjeta,1,6-12 meses,45-60,0.6286603352660591,Alto
+890,18,Desconocida,Desconocido,2,16,394150.0,8,Tarjeta,0,0-6 meses,,0.16153138516677937,Bajo
+891,20,Rosario,Telefonia,11,19,225534.0,5,Efectivo,0,6-12 meses,18-30,0.1464669066671031,Bajo
+892,30,Desconocida,Desconocido,13,18,50066.0,9,Transferencia,0,12-24 meses,18-30,0.5016874106363756,Medio
+893,45,Cordoba,Telefonia,10,16,236387.0,14,Desconocido,0,6-12 meses,30-45,0.1409499844142336,Bajo
+894,79,Desconocida,Desconocido,14,8,139445.0,4,Efectivo,0,12-24 meses,60+,0.13563616188963426,Bajo
+895,74,Buenos aires,Internet,18,33,408551.0,5,Transferencia,0,12-24 meses,60+,0.41230323958461634,Medio
+896,77,Rosario,Tv,9,49,421957.0,12,Efectivo,0,6-12 meses,60+,0.22930632359763028,Bajo
+897,66,Cordoba,Internet,39,12,277836.0,5,Transferencia,1,24+ meses,60+,0.6789714535980628,Alto
+898,42,Rosario,Tv,28,11,445511.0,8,Efectivo,0,24+ meses,30-45,0.48639048643466265,Medio
+899,73,Desconocida,Internet,3,5,50541.0,3,Transferencia,0,0-6 meses,60+,0.16759628206624672,Bajo
+900,50,Cordoba,Internet,20,27,170129.0,1,Efectivo,1,12-24 meses,45-60,0.35585123839079214,Medio
+901,55,Cordoba,Tv,6,12,71983.0,10,Transferencia,0,0-6 meses,45-60,0.3723714061133676,Medio
+902,70,Desconocida,Desconocido,27,17,155655.0,10,Efectivo,0,24+ meses,60+,0.1533496234490946,Bajo
+903,23,Rosario,Tv,2,6,158837.0,8,Desconocido,0,0-6 meses,18-30,0.17243852796076906,Bajo
+904,75,Mendoza,Tv,29,33,195359.0,1,Desconocido,0,24+ meses,60+,0.43232326472618715,Medio
+905,61,Desconocida,Telefonia,38,5,422122.0,9,Tarjeta,0,24+ meses,60+,0.3414107775226103,Medio
+906,62,Rosario,Desconocido,3,28,387891.0,8,Transferencia,1,0-6 meses,60+,0.6172165131349527,Alto
+907,49,Cordoba,Tv,16,14,352247.0,1,Efectivo,0,12-24 meses,45-60,0.3511415757965947,Medio
+908,62,Rosario,Desconocido,30,5,215747.0,11,Transferencia,0,24+ meses,60+,0.3320874629850121,Medio
+909,78,Cordoba,Desconocido,40,33,182597.0,7,Desconocido,1,24+ meses,60+,0.2533147624506299,Bajo
+910,64,Desconocida,Desconocido,2,48,174302.0,8,Transferencia,1,0-6 meses,60+,0.7326576401963588,Alto
+911,38,Buenos aires,Telefonia,17,41,417736.0,11,Efectivo,0,12-24 meses,30-45,0.19869338267029396,Bajo
+912,33,Rosario,Internet,41,19,483454.0,9,Transferencia,0,24+ meses,30-45,0.34630700462028097,Medio
+913,71,Desconocida,Desconocido,12,22,450150.0,8,Efectivo,0,6-12 meses,60+,0.2145070042221148,Bajo
+914,38,Rosario,Internet,35,5,292710.0,9,Desconocido,1,24+ meses,30-45,0.6135930543307161,Alto
+915,28,Mendoza,Tv,43,2,340337.0,8,Desconocido,1,24+ meses,18-30,0.46320488869979753,Medio
+916,77,Mendoza,Telefonia,1,30,428350.0,1,Desconocido,0,0-6 meses,60+,0.1313713406476564,Bajo
+917,54,Cordoba,Tv,45,47,408561.0,3,Tarjeta,0,24+ meses,45-60,0.29946344223579563,Bajo
+918,53,Cordoba,Telefonia,15,39,257084.0,6,Desconocido,0,12-24 meses,45-60,0.3141428388031231,Medio
+919,52,Rosario,Tv,26,4,126015.0,11,Transferencia,1,24+ meses,45-60,0.6798072642487003,Alto
+920,36,Cordoba,Telefonia,37,33,177257.0,1,Tarjeta,0,24+ meses,30-45,0.485925711656958,Medio
+921,37,Rosario,Tv,21,13,251536.0,0,Desconocido,0,12-24 meses,30-45,0.20842021181159862,Bajo
+922,74,Cordoba,Desconocido,31,20,229021.0,2,Transferencia,1,24+ meses,60+,0.4082637792943066,Medio
+923,35,Desconocida,Internet,25,7,275628.0,11,Transferencia,0,24+ meses,30-45,0.4213877674189909,Medio
+924,64,Desconocida,Tv,23,15,75744.0,3,Transferencia,0,12-24 meses,60+,0.6255629882882026,Alto
+925,58,Mendoza,Tv,24,23,300599.0,7,Efectivo,0,12-24 meses,45-60,0.4612579980020801,Medio
+926,66,Desconocida,Internet,38,14,426234.0,5,Tarjeta,0,24+ meses,60+,0.46088107990390165,Medio
+927,31,Desconocida,Tv,28,23,321363.0,10,Transferencia,0,24+ meses,30-45,0.20482998370261407,Bajo
+928,32,Buenos aires,Internet,21,19,313135.0,1,Efectivo,0,12-24 meses,30-45,0.2108181827419329,Bajo
+929,48,Mendoza,Tv,43,29,78616.0,14,Desconocido,0,24+ meses,45-60,0.19793886640576644,Bajo
+930,18,Cordoba,Desconocido,18,20,92438.0,8,Transferencia,1,12-24 meses,,0.6125102956085922,Alto
+931,70,Rosario,Internet,36,29,121841.0,13,Efectivo,0,24+ meses,60+,0.15985724987816766,Bajo
+932,71,Buenos aires,Internet,35,24,145558.0,1,Transferencia,0,24+ meses,60+,0.18341571213077898,Bajo
+933,71,Cordoba,Desconocido,45,18,174934.0,12,Tarjeta,0,24+ meses,60+,0.11349014585561587,Bajo
+934,20,Cordoba,Internet,9,10,257734.0,14,Tarjeta,1,6-12 meses,18-30,0.6695938297813298,Alto
+935,33,Buenos aires,Desconocido,38,41,63870.0,11,Desconocido,1,24+ meses,30-45,0.535041442197546,Medio
+936,40,Cordoba,Desconocido,30,8,91694.0,4,Transferencia,0,24+ meses,30-45,0.32022881382697044,Medio
+937,74,Cordoba,Desconocido,44,26,242068.0,11,Efectivo,0,24+ meses,60+,0.13971568408569943,Bajo
+938,28,Mendoza,Tv,34,29,311000.0,3,Desconocido,0,24+ meses,18-30,0.5931560610580514,Medio
+940,27,Cordoba,Telefonia,3,17,498960.0,6,Desconocido,0,0-6 meses,18-30,0.1124044066616932,Bajo
+941,49,Desconocida,Telefonia,3,2,484271.0,7,Efectivo,1,0-6 meses,45-60,0.2685120767071131,Bajo
+942,33,Rosario,Internet,28,6,36379.0,4,Desconocido,1,24+ meses,30-45,0.5946826950714709,Medio
+943,25,Cordoba,Desconocido,44,5,331873.0,9,Desconocido,0,24+ meses,18-30,0.19384913369130408,Bajo
+944,55,Cordoba,Internet,15,28,426594.0,13,Desconocido,1,12-24 meses,45-60,0.18197897052554649,Bajo
+945,29,Rosario,Tv,41,41,241500.0,13,Transferencia,1,24+ meses,18-30,0.3990205421584945,Medio
+946,41,Rosario,Tv,23,5,59353.0,4,Efectivo,0,12-24 meses,30-45,0.3803777561992052,Medio
+948,70,Cordoba,Tv,11,26,275628.0,7,Transferencia,1,6-12 meses,60+,0.79841405013732,Alto
+949,25,Cordoba,Tv,32,20,216144.0,13,Tarjeta,0,24+ meses,18-30,0.3628339487852175,Medio
+950,75,Cordoba,Internet,36,41,70982.0,1,Tarjeta,1,24+ meses,60+,0.5788088057596571,Medio
+951,45,Rosario,Internet,33,49,41683.0,9,Transferencia,1,24+ meses,30-45,0.6193375779335115,Alto
+952,53,Rosario,Internet,24,27,119091.0,11,Transferencia,0,12-24 meses,45-60,0.4159466933208163,Medio
+953,43,Desconocida,Tv,39,49,122797.0,5,Efectivo,1,24+ meses,30-45,0.7842319590585214,Alto
+954,25,Rosario,Internet,34,12,415834.0,7,Efectivo,1,24+ meses,18-30,0.5509327582109236,Medio
+955,75,Mendoza,Internet,28,7,11587.0,5,Desconocido,0,24+ meses,60+,0.47691099247703433,Medio
+956,77,Cordoba,Internet,37,3,329934.0,3,Tarjeta,0,24+ meses,60+,0.41733197783057924,Medio
+957,67,Rosario,Tv,7,10,298624.0,12,Efectivo,0,6-12 meses,60+,0.2790585659865253,Bajo
+958,45,Buenos aires,Desconocido,4,34,234602.0,3,Desconocido,0,0-6 meses,30-45,0.259971836307857,Bajo
+959,45,Cordoba,Internet,37,25,156599.0,5,Efectivo,0,24+ meses,30-45,0.3480584551726907,Medio
+960,54,Rosario,Tv,1,35,290713.0,13,Transferencia,0,0-6 meses,45-60,0.3062374744358405,Medio
+961,58,Cordoba,Tv,1,16,278295.0,14,Efectivo,0,0-6 meses,45-60,0.17894977867485243,Bajo
+962,53,Mendoza,Internet,47,2,469310.0,12,Tarjeta,0,24+ meses,45-60,0.39933730012158314,Medio
+963,44,Buenos aires,Desconocido,20,24,195246.0,3,Efectivo,1,12-24 meses,30-45,0.513375253138749,Medio
+964,71,Mendoza,Tv,19,10,49739.0,7,Tarjeta,1,12-24 meses,60+,0.5637345982353944,Medio
+965,34,Desconocida,Telefonia,29,38,37954.0,8,Transferencia,1,24+ meses,30-45,0.7835186064223891,Alto
+966,26,Buenos aires,Desconocido,10,22,248935.0,0,Tarjeta,0,6-12 meses,18-30,0.39007092751380584,Medio
+967,50,Cordoba,Tv,18,26,114373.0,12,Efectivo,1,12-24 meses,45-60,0.8102939719684954,Alto
+968,70,Rosario,Internet,28,43,433519.0,3,Desconocido,1,24+ meses,60+,0.6661843439059651,Alto
+969,37,Buenos aires,Telefonia,35,39,39700.0,3,Transferencia,0,24+ meses,30-45,0.3569414881222501,Medio
+970,30,Desconocida,Telefonia,43,27,491252.0,1,Efectivo,0,24+ meses,18-30,0.2888742942274878,Bajo
+971,45,Desconocida,Tv,47,29,128728.0,5,Transferencia,0,24+ meses,30-45,0.33913998317061667,Medio
+972,65,Mendoza,Telefonia,31,47,465784.0,2,Transferencia,1,24+ meses,60+,0.8432165236389857,Alto
+974,30,Buenos aires,Tv,11,20,76045.0,12,Efectivo,0,6-12 meses,18-30,0.39048440805783163,Medio
+975,63,Rosario,Internet,38,27,436058.0,10,Desconocido,0,24+ meses,60+,0.5837938312982935,Medio
+976,52,Buenos aires,Tv,5,41,149972.0,10,Transferencia,0,0-6 meses,45-60,0.23461432130343973,Bajo
+977,78,Rosario,Desconocido,8,20,395136.0,4,Transferencia,0,6-12 meses,60+,0.251399976157932,Bajo
+978,23,Cordoba,Telefonia,34,44,347203.0,3,Efectivo,0,24+ meses,18-30,0.16808258906141765,Bajo
+979,35,Rosario,Tv,12,19,6881.0,4,Tarjeta,0,6-12 meses,30-45,0.21511748612068538,Bajo
+980,68,Rosario,Tv,38,20,431253.0,7,Efectivo,1,24+ meses,60+,0.6249385554381078,Alto
+981,22,Cordoba,Internet,1,35,399846.0,2,Transferencia,0,0-6 meses,18-30,0.14196519260061963,Bajo
+982,64,Mendoza,Telefonia,31,47,287933.0,13,Efectivo,0,24+ meses,60+,0.1457619476735682,Bajo
+983,42,Cordoba,Internet,4,2,393227.0,6,Desconocido,0,0-6 meses,30-45,0.2866338442804772,Bajo
+984,19,Rosario,Telefonia,45,30,93059.0,14,Tarjeta,0,24+ meses,18-30,0.20944859307359306,Bajo
+985,27,Cordoba,Tv,5,34,219566.0,13,Efectivo,0,0-6 meses,18-30,0.10702715252080042,Bajo
+986,73,Buenos aires,Internet,30,22,313295.0,5,Desconocido,0,24+ meses,60+,0.26237750058258574,Bajo
+987,47,Buenos aires,Internet,24,3,447136.0,11,Transferencia,1,12-24 meses,45-60,0.7095743476288774,Alto
+989,76,Rosario,Desconocido,11,15,203303.0,12,Transferencia,1,6-12 meses,60+,0.27291184488024767,Bajo
+990,62,Desconocida,Telefonia,45,27,478573.0,6,Desconocido,0,24+ meses,60+,0.29283439302521064,Bajo
+991,22,Buenos aires,Internet,4,10,270406.0,13,Transferencia,0,0-6 meses,18-30,0.28048012635461644,Bajo
+992,72,Desconocida,Internet,26,9,334125.0,12,Desconocido,1,24+ meses,60+,0.6268659593776604,Alto
+993,73,Buenos aires,Internet,27,33,388095.0,6,Desconocido,0,24+ meses,60+,0.4923604273772776,Medio
+994,50,Buenos aires,Internet,46,32,390243.0,13,Desconocido,0,24+ meses,45-60,0.35702786736616005,Medio
+995,71,Mendoza,Internet,43,48,86972.0,14,Efectivo,0,24+ meses,60+,0.18084023226289625,Bajo
+996,18,Mendoza,Tv,27,6,342629.0,11,Transferencia,0,24+ meses,,0.472364985368662,Medio
+997,35,Rosario,Internet,42,41,59722.0,0,Transferencia,0,24+ meses,30-45,0.2785934471757251,Bajo
+998,49,Cordoba,Internet,6,36,356643.0,8,Tarjeta,1,0-6 meses,45-60,0.6087273259765145,Alto
+999,64,Cordoba,Tv,15,2,186890.0,5,Tarjeta,0,12-24 meses,60+,0.4100534989033436,Medio
+1000,66,Cordoba,Internet,30,29,428148.0,14,Tarjeta,0,24+ meses,60+,0.14987765670268682,Bajo
