@@ -3,7 +3,7 @@
 Análisis completo y sistema de priorización de clientes en riesgo de abandono para empresa de telecomunicaciones. Combina análisis exploratorio, modelado predictivo con Machine Learning y herramienta web interactiva para equipos de retención.
 
 ## 🚀 Demo en Vivo
-👉 **[Ver app deployada en Streamlit](predictivec.streamlit.app)**
+👉 **[Ver app deployada en Streamlit](https://predictivec.streamlit.app)**
 
 
 
