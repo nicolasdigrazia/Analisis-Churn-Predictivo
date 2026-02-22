@@ -6,7 +6,7 @@ model = joblib.load('modelo_churn.pkl')
 model_columns = joblib.load('model_columns.pkl')
 
 def predecir():
-    print("\n--- ORÁCULO SANTANDER ---")
+    print("\n-")
     # Pedimos lo básico
     data = {
         'meses_activo': [int(input("Meses activo: "))],
