@@ -4,14 +4,12 @@ __pycache__/
 .ipynb_checkpoints/
 *.pbix
 
-*.pkl
-*.ipynb
+
 
 # Datos sensibles
 
 *.xlsx
 *.db
-README.md
 # Sistema
 .DS_Store
 Thumbs.db
